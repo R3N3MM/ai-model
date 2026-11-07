@@ -1,0 +1,1104 @@
+[
+  {
+    "cloud": "azure",
+    "key": "home",
+    "name": "Microsoft Azure Portal",
+    "url": "https://portal.azure.com/",
+    "doc": "https://learn.microsoft.com/en-us/azure/",
+    "category": "portal",
+    "aliases": [
+      "azure",
+      "microsoft azure",
+      "azure portal",
+      "ms azure"
+    ],
+    "skills": [
+      "open portal",
+      "azure dashboard",
+      "sign in to azure"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "virtual-machines",
+    "name": "Azure Virtual Machines",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-machines/",
+    "category": "compute",
+    "aliases": [
+      "virtual machines",
+      "vms",
+      "vm",
+      "compute",
+      "servers"
+    ],
+    "skills": [
+      "create vm",
+      "manage virtual machines",
+      "start stop vm",
+      "resize vm"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "vmss",
+    "name": "Virtual Machine Scale Sets",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachineScaleSets",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/",
+    "category": "compute",
+    "aliases": [
+      "scale sets",
+      "vmss",
+      "virtual machine scale sets"
+    ],
+    "skills": [
+      "scale vms",
+      "autoscale compute"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "app-service",
+    "name": "Azure App Service",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites",
+    "doc": "https://learn.microsoft.com/en-us/azure/app-service/",
+    "category": "compute",
+    "aliases": [
+      "app service",
+      "web apps",
+      "webapp",
+      "app services"
+    ],
+    "skills": [
+      "deploy web app",
+      "manage app service",
+      "configure web app"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "aks",
+    "name": "Azure Kubernetes Service",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters",
+    "doc": "https://learn.microsoft.com/en-us/azure/aks/",
+    "category": "containers",
+    "aliases": [
+      "aks",
+      "kubernetes",
+      "k8s",
+      "kubernetes service"
+    ],
+    "skills": [
+      "manage kubernetes cluster",
+      "deploy to aks",
+      "scale aks"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "container-instances",
+    "name": "Azure Container Instances",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups",
+    "doc": "https://learn.microsoft.com/en-us/azure/container-instances/",
+    "category": "containers",
+    "aliases": [
+      "container instances",
+      "aci",
+      "containers"
+    ],
+    "skills": [
+      "run container",
+      "deploy container instance"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "container-registry",
+    "name": "Azure Container Registry",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerRegistry%2Fregistries",
+    "doc": "https://learn.microsoft.com/en-us/azure/container-registry/",
+    "category": "containers",
+    "aliases": [
+      "container registry",
+      "acr",
+      "registry"
+    ],
+    "skills": [
+      "push image",
+      "manage container registry"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "functions",
+    "name": "Azure Functions",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-functions/",
+    "category": "compute",
+    "aliases": [
+      "functions",
+      "function app",
+      "serverless",
+      "azure functions"
+    ],
+    "skills": [
+      "create function",
+      "deploy serverless function"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "storage",
+    "name": "Azure Storage Accounts",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/storage/",
+    "category": "storage",
+    "aliases": [
+      "storage",
+      "storage accounts",
+      "storage account",
+      "blob",
+      "blobs",
+      "object storage"
+    ],
+    "skills": [
+      "manage storage account",
+      "create blob container",
+      "upload files to storage"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "blob-storage",
+    "name": "Azure Blob Storage",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/storage/blobs/",
+    "category": "storage",
+    "aliases": [
+      "blob storage",
+      "blob containers"
+    ],
+    "skills": [
+      "manage blobs",
+      "create container"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "files",
+    "name": "Azure Files",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/storage/files/",
+    "category": "storage",
+    "aliases": [
+      "azure files",
+      "file shares",
+      "file share"
+    ],
+    "skills": [
+      "manage file shares",
+      "mount azure files"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "disk",
+    "name": "Azure Disk Storage",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2Fdisks",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview",
+    "category": "storage",
+    "aliases": [
+      "disks",
+      "managed disks",
+      "disk storage"
+    ],
+    "skills": [
+      "attach disk",
+      "manage managed disks"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "vnet",
+    "name": "Azure Virtual Network",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-network/",
+    "category": "networking",
+    "aliases": [
+      "virtual network",
+      "vnet",
+      "vnets",
+      "network"
+    ],
+    "skills": [
+      "create vnet",
+      "configure subnets",
+      "manage virtual network"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "load-balancer",
+    "name": "Azure Load Balancer",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FloadBalancers",
+    "doc": "https://learn.microsoft.com/en-us/azure/load-balancer/",
+    "category": "networking",
+    "aliases": [
+      "load balancer",
+      "lb"
+    ],
+    "skills": [
+      "configure load balancer",
+      "balance traffic"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "application-gateway",
+    "name": "Azure Application Gateway",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FapplicationGateways",
+    "doc": "https://learn.microsoft.com/en-us/azure/application-gateway/",
+    "category": "networking",
+    "aliases": [
+      "application gateway",
+      "app gateway",
+      "waf gateway"
+    ],
+    "skills": [
+      "configure application gateway"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "dns",
+    "name": "Azure DNS",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FdnsZones",
+    "doc": "https://learn.microsoft.com/en-us/azure/dns/",
+    "category": "networking",
+    "aliases": [
+      "dns",
+      "dns zones",
+      "azure dns"
+    ],
+    "skills": [
+      "manage dns zone",
+      "add dns records"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "front-door",
+    "name": "Azure Front Door",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cdn%2Fprofiles",
+    "doc": "https://learn.microsoft.com/en-us/azure/frontdoor/",
+    "category": "networking",
+    "aliases": [
+      "front door",
+      "cdn",
+      "frontdoor"
+    ],
+    "skills": [
+      "configure front door",
+      "global load balancing"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "vpn-gateway",
+    "name": "Azure VPN Gateway",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworkGateways",
+    "doc": "https://learn.microsoft.com/en-us/azure/vpn-gateway/",
+    "category": "networking",
+    "aliases": [
+      "vpn gateway",
+      "vpn",
+      "virtual network gateway"
+    ],
+    "skills": [
+      "configure vpn",
+      "site to site vpn"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "firewall",
+    "name": "Azure Firewall",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FazureFirewalls",
+    "doc": "https://learn.microsoft.com/en-us/azure/firewall/",
+    "category": "networking",
+    "aliases": [
+      "firewall",
+      "azure firewall"
+    ],
+    "skills": [
+      "configure firewall rules",
+      "manage firewall"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "entra",
+    "name": "Microsoft Entra ID",
+    "url": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview",
+    "doc": "https://learn.microsoft.com/en-us/entra/identity/",
+    "category": "identity",
+    "aliases": [
+      "entra",
+      "entra id",
+      "active directory",
+      "azure ad",
+      "aad",
+      "identity",
+      "iam"
+    ],
+    "skills": [
+      "manage users",
+      "manage groups",
+      "identity and access",
+      "configure sso"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "rbac",
+    "name": "Azure RBAC / Access Control",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseAll",
+    "doc": "https://learn.microsoft.com/en-us/azure/role-based-access-control/",
+    "category": "identity",
+    "aliases": [
+      "rbac",
+      "role based access control",
+      "access control",
+      "permissions",
+      "roles"
+    ],
+    "skills": [
+      "assign roles",
+      "manage permissions",
+      "access control iam"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "key-vault",
+    "name": "Azure Key Vault",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.KeyVault%2Fvaults",
+    "doc": "https://learn.microsoft.com/en-us/azure/key-vault/",
+    "category": "security",
+    "aliases": [
+      "key vault",
+      "secrets",
+      "keys",
+      "certificates",
+      "vault"
+    ],
+    "skills": [
+      "manage secrets",
+      "store keys",
+      "manage certificates"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "defender",
+    "name": "Microsoft Defender for Cloud",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0",
+    "doc": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/",
+    "category": "security",
+    "aliases": [
+      "defender for cloud",
+      "security center",
+      "defender",
+      "cloud security"
+    ],
+    "skills": [
+      "review security posture",
+      "security recommendations"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "policy",
+    "name": "Azure Policy",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/Overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/governance/policy/",
+    "category": "governance",
+    "aliases": [
+      "policy",
+      "azure policy",
+      "governance",
+      "compliance"
+    ],
+    "skills": [
+      "assign policy",
+      "check compliance"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "monitor",
+    "name": "Azure Monitor",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+    "category": "monitoring",
+    "aliases": [
+      "monitor",
+      "azure monitor",
+      "monitoring",
+      "metrics",
+      "logs",
+      "observability"
+    ],
+    "skills": [
+      "view metrics",
+      "check logs",
+      "create alert"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "cost-management",
+    "name": "Cost Management + Billing",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_CostManagement/Menu/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/cost-management-billing/",
+    "category": "management",
+    "aliases": [
+      "cost management",
+      "billing",
+      "costs",
+      "budgets",
+      "spend"
+    ],
+    "skills": [
+      "review costs",
+      "manage billing",
+      "create budget"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "resource-groups",
+    "name": "Resource Groups",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+    "category": "management",
+    "aliases": [
+      "resource groups",
+      "resource group",
+      "rg",
+      "resource manager"
+    ],
+    "skills": [
+      "create resource group",
+      "manage resources"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "subscriptions",
+    "name": "Azure Subscriptions",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2",
+    "doc": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/",
+    "category": "management",
+    "aliases": [
+      "subscriptions",
+      "subscription"
+    ],
+    "skills": [
+      "manage subscription",
+      "view subscriptions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "sql-database",
+    "name": "Azure SQL Database",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers%2Fdatabases",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-sql/database/",
+    "category": "databases",
+    "aliases": [
+      "sql database",
+      "azure sql",
+      "sql",
+      "database",
+      "databases"
+    ],
+    "skills": [
+      "manage sql database",
+      "query azure sql"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "cosmos-db",
+    "name": "Azure Cosmos DB",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DocumentDb%2FdatabaseAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/cosmos-db/",
+    "category": "databases",
+    "aliases": [
+      "cosmos db",
+      "cosmos",
+      "nosql"
+    ],
+    "skills": [
+      "manage cosmos db",
+      "query cosmos"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "postgresql",
+    "name": "Azure Database for PostgreSQL",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers",
+    "doc": "https://learn.microsoft.com/en-us/azure/postgresql/",
+    "category": "databases",
+    "aliases": [
+      "postgresql",
+      "postgres",
+      "azure postgres"
+    ],
+    "skills": [
+      "manage postgresql",
+      "connect to postgres"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "mysql",
+    "name": "Azure Database for MySQL",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforMySQL%2FflexibleServers",
+    "doc": "https://learn.microsoft.com/en-us/azure/mysql/",
+    "category": "databases",
+    "aliases": [
+      "mysql",
+      "azure mysql"
+    ],
+    "skills": [
+      "manage mysql database"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "backup",
+    "name": "Azure Backup",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults",
+    "doc": "https://learn.microsoft.com/en-us/azure/backup/",
+    "category": "management",
+    "aliases": [
+      "backup",
+      "recovery services",
+      "vault backup"
+    ],
+    "skills": [
+      "configure backup",
+      "restore backup"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "devops",
+    "name": "Azure DevOps",
+    "url": "https://dev.azure.com/",
+    "doc": "https://learn.microsoft.com/en-us/azure/devops/",
+    "category": "devops",
+    "aliases": [
+      "azure devops",
+      "devops",
+      "pipelines",
+      "repos",
+      "boards"
+    ],
+    "skills": [
+      "open pipelines",
+      "manage repos",
+      "devops project"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "cloud-shell",
+    "name": "Azure Cloud Shell",
+    "url": "https://portal.azure.com/#cloudshell/",
+    "doc": "https://learn.microsoft.com/en-us/azure/cloud-shell/overview",
+    "category": "management",
+    "aliases": [
+      "cloud shell",
+      "azure shell",
+      "bash cloud shell"
+    ],
+    "skills": [
+      "open cloud shell",
+      "run azure cli"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "advisor",
+    "name": "Azure Advisor",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Expert/AdvisorMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/advisor/",
+    "category": "management",
+    "aliases": [
+      "advisor",
+      "azure advisor",
+      "recommendations"
+    ],
+    "skills": [
+      "view recommendations",
+      "optimize azure"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "event-hubs",
+    "name": "Azure Event Hubs",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.EventHub%2Fnamespaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/event-hubs/",
+    "category": "integration",
+    "aliases": [
+      "event hubs",
+      "event hub",
+      "streaming ingestion"
+    ],
+    "skills": [
+      "manage event hub namespace",
+      "ingest events"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "service-bus",
+    "name": "Azure Service Bus",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ServiceBus%2Fnamespaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/",
+    "category": "integration",
+    "aliases": [
+      "service bus",
+      "messaging queues topics",
+      "sb"
+    ],
+    "skills": [
+      "manage queues and topics",
+      "send messages"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "event-grid",
+    "name": "Azure Event Grid",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.EventGrid%2Ftopics",
+    "doc": "https://learn.microsoft.com/en-us/azure/event-grid/",
+    "category": "integration",
+    "aliases": [
+      "event grid",
+      "events",
+      "pub sub events"
+    ],
+    "skills": [
+      "manage event subscriptions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "logic-apps",
+    "name": "Azure Logic Apps",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows",
+    "doc": "https://learn.microsoft.com/en-us/azure/logic-apps/",
+    "category": "integration",
+    "aliases": [
+      "logic apps",
+      "logic app",
+      "workflows"
+    ],
+    "skills": [
+      "create workflow",
+      "manage logic app"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "api-management",
+    "name": "Azure API Management",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice",
+    "doc": "https://learn.microsoft.com/en-us/azure/api-management/",
+    "category": "integration",
+    "aliases": [
+      "api management",
+      "apim",
+      "api gateway"
+    ],
+    "skills": [
+      "publish api",
+      "manage apim"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "data-factory",
+    "name": "Azure Data Factory",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories",
+    "doc": "https://learn.microsoft.com/en-us/azure/data-factory/",
+    "category": "analytics",
+    "aliases": [
+      "data factory",
+      "adf",
+      "etl pipelines"
+    ],
+    "skills": [
+      "manage pipelines",
+      "data integration"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "synapse",
+    "name": "Azure Synapse Analytics",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Synapse%2Fworkspaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/synapse-analytics/",
+    "category": "analytics",
+    "aliases": [
+      "synapse",
+      "synapse analytics",
+      "data warehouse analytics"
+    ],
+    "skills": [
+      "manage synapse workspace",
+      "run analytics"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "databricks",
+    "name": "Azure Databricks",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/databricks/",
+    "category": "analytics",
+    "aliases": [
+      "databricks",
+      "spark",
+      "azure databricks"
+    ],
+    "skills": [
+      "manage databricks workspace"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "redis",
+    "name": "Azure Cache for Redis",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/",
+    "category": "databases",
+    "aliases": [
+      "redis",
+      "cache for redis",
+      "azure redis",
+      "cache"
+    ],
+    "skills": [
+      "manage redis cache"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "managed-redis",
+    "name": "Azure Managed Redis",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FredisEnterprise",
+    "doc": "https://learn.microsoft.com/en-us/azure/redis/",
+    "category": "databases",
+    "aliases": [
+      "managed redis",
+      "redis enterprise"
+    ],
+    "skills": [
+      "manage managed redis"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "sql-managed-instance",
+    "name": "Azure SQL Managed Instance",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2FmanagedInstances",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/",
+    "category": "databases",
+    "aliases": [
+      "sql managed instance",
+      "managed instance",
+      "mi sql"
+    ],
+    "skills": [
+      "manage sql managed instance"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "sentinel",
+    "name": "Microsoft Sentinel",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.securityinsightsarg%2Fsentinel",
+    "doc": "https://learn.microsoft.com/en-us/azure/sentinel/",
+    "category": "security",
+    "aliases": [
+      "sentinel",
+      "microsoft sentinel",
+      "siem",
+      "security analytics"
+    ],
+    "skills": [
+      "review incidents",
+      "siem investigation"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "ddos-protection",
+    "name": "Azure DDoS Protection",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FddosProtectionPlans",
+    "doc": "https://learn.microsoft.com/en-us/azure/ddos-protection/",
+    "category": "security",
+    "aliases": [
+      "ddos",
+      "ddos protection"
+    ],
+    "skills": [
+      "manage ddos plan"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "bastion",
+    "name": "Azure Bastion",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FbastionHosts",
+    "doc": "https://learn.microsoft.com/en-us/azure/bastion/",
+    "category": "networking",
+    "aliases": [
+      "bastion",
+      "azure bastion",
+      "secure rdp ssh"
+    ],
+    "skills": [
+      "connect via bastion",
+      "manage bastion host"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "nat-gateway",
+    "name": "Azure NAT Gateway",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FnatGateways",
+    "doc": "https://learn.microsoft.com/en-us/azure/nat-gateway/",
+    "category": "networking",
+    "aliases": [
+      "nat gateway",
+      "nat"
+    ],
+    "skills": [
+      "manage nat gateway",
+      "outbound connectivity"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "private-link",
+    "name": "Azure Private Link",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Network/PrivateLinkCenterBlade/~/privateendpoints",
+    "doc": "https://learn.microsoft.com/en-us/azure/private-link/",
+    "category": "networking",
+    "aliases": [
+      "private link",
+      "private endpoint",
+      "private endpoints"
+    ],
+    "skills": [
+      "create private endpoint"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "network-watcher",
+    "name": "Network Watcher",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Network/NetworkWatcherMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/network-watcher/",
+    "category": "networking",
+    "aliases": [
+      "network watcher",
+      "network diagnostics"
+    ],
+    "skills": [
+      "diagnose network",
+      "connection monitor"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "site-recovery",
+    "name": "Azure Site Recovery",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults",
+    "doc": "https://learn.microsoft.com/en-us/azure/site-recovery/",
+    "category": "management",
+    "aliases": [
+      "site recovery",
+      "disaster recovery",
+      "asr",
+      "dr"
+    ],
+    "skills": [
+      "configure replication",
+      "failover"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "automation",
+    "name": "Azure Automation",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/automation/",
+    "category": "management",
+    "aliases": [
+      "automation",
+      "runbooks",
+      "automation account"
+    ],
+    "skills": [
+      "manage runbooks",
+      "automate tasks"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "log-analytics",
+    "name": "Log Analytics workspaces",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.OperationalInsights%2Fworkspaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview",
+    "category": "monitoring",
+    "aliases": [
+      "log analytics",
+      "logs workspace",
+      "workspace logs"
+    ],
+    "skills": [
+      "query logs",
+      "manage workspace"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "app-insights",
+    "name": "Application Insights",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fcomponents",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+    "category": "monitoring",
+    "aliases": [
+      "application insights",
+      "app insights",
+      "apm"
+    ],
+    "skills": [
+      "view application performance",
+      "traces and failures"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "container-apps",
+    "name": "Azure Container Apps",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.App%2FcontainerApps",
+    "doc": "https://learn.microsoft.com/en-us/azure/container-apps/",
+    "category": "containers",
+    "aliases": [
+      "container apps",
+      "aca",
+      "serverless containers"
+    ],
+    "skills": [
+      "deploy container app",
+      "manage revisions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "virtual-desktop",
+    "name": "Azure Virtual Desktop",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_WVD/WvdManagerMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-desktop/",
+    "category": "compute",
+    "aliases": [
+      "virtual desktop",
+      "avd",
+      "windows virtual desktop",
+      "wvd"
+    ],
+    "skills": [
+      "manage host pools",
+      "virtual desktops"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "migrate",
+    "name": "Azure Migrate",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Migrate/AmhManageMigrateProjects.ReactView",
+    "doc": "https://learn.microsoft.com/en-us/azure/migrate/",
+    "category": "management",
+    "aliases": [
+      "azure migrate",
+      "migration",
+      "migrate servers"
+    ],
+    "skills": [
+      "assess migration",
+      "migrate workloads"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "arc",
+    "name": "Azure Arc",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_ArcCenterUX/ArcCenterMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-arc/",
+    "category": "hybrid",
+    "aliases": [
+      "azure arc",
+      "arc",
+      "hybrid servers",
+      "hybrid kubernetes"
+    ],
+    "skills": [
+      "manage hybrid resources",
+      "onboard servers"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "expressroute",
+    "name": "Azure ExpressRoute",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FexpressRouteCircuits",
+    "doc": "https://learn.microsoft.com/en-us/azure/expressroute/",
+    "category": "networking",
+    "aliases": [
+      "expressroute",
+      "express route",
+      "private connectivity"
+    ],
+    "skills": [
+      "manage expressroute circuit"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "purview",
+    "name": "Microsoft Purview",
+    "url": "https://purview.microsoft.com/",
+    "doc": "https://learn.microsoft.com/en-us/purview/",
+    "category": "governance",
+    "aliases": [
+      "purview",
+      "microsoft purview",
+      "data governance",
+      "compliance governance"
+    ],
+    "skills": [
+      "data catalog",
+      "governance"
+    ]
+  }
+]

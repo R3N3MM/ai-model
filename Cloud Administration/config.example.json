@@ -1,0 +1,17 @@
+{
+  "default_browser": "auto",
+  "prefer_selenium": true,
+  "browser_paths": {
+    "firefox": "",
+    "chrome": "",
+    "google": "",
+    "edge": "",
+    "brave": "",
+    "opera": ""
+  },
+  "driver_paths": {
+    "firefox": "",
+    "chrome": "",
+    "edge": ""
+  }
+}

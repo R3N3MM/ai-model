@@ -1,0 +1,10 @@
+# Cloud Admin Browser Agent - dependencies
+# The AI model (BoW + MLP) is implemented from scratch in pure Python (stdlib only).
+# No pre-trained/downloaded ML model weights are required.
+
+# Optional: enables real browser-session control via Selenium.
+# The agent can run without this using Python's built-in webbrowser module.
+selenium>=4.20.0
+
+# Optional dev/training utilities (not required for runtime):
+# (none - training and inference use only the Python standard library)

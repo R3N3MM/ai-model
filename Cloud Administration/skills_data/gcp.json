@@ -1,0 +1,1034 @@
+[
+  {
+    "cloud": "gcp",
+    "key": "home",
+    "name": "Google Cloud Console",
+    "url": "https://console.cloud.google.com/",
+    "doc": "https://cloud.google.com/docs",
+    "category": "portal",
+    "aliases": [
+      "gcp",
+      "google cloud",
+      "google cloud platform",
+      "gcloud",
+      "google cloud console"
+    ],
+    "skills": [
+      "open console",
+      "gcp dashboard",
+      "sign in to google cloud"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "compute-engine",
+    "name": "Compute Engine",
+    "url": "https://console.cloud.google.com/compute/instances",
+    "doc": "https://cloud.google.com/compute/docs",
+    "category": "compute",
+    "aliases": [
+      "compute engine",
+      "gce",
+      "virtual machines",
+      "vms",
+      "vm",
+      "instances",
+      "compute",
+      "servers"
+    ],
+    "skills": [
+      "create instance",
+      "manage vm instances",
+      "start stop instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "gke",
+    "name": "Google Kubernetes Engine",
+    "url": "https://console.cloud.google.com/kubernetes/list/overview",
+    "doc": "https://cloud.google.com/kubernetes-engine/docs",
+    "category": "containers",
+    "aliases": [
+      "gke",
+      "kubernetes",
+      "k8s",
+      "google kubernetes engine"
+    ],
+    "skills": [
+      "create cluster",
+      "manage gke",
+      "deploy to kubernetes"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-run",
+    "name": "Cloud Run",
+    "url": "https://console.cloud.google.com/run",
+    "doc": "https://cloud.google.com/run/docs",
+    "category": "compute",
+    "aliases": [
+      "cloud run",
+      "serverless containers",
+      "run"
+    ],
+    "skills": [
+      "deploy service",
+      "manage cloud run"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-functions",
+    "name": "Cloud Run functions",
+    "url": "https://console.cloud.google.com/functions/list",
+    "doc": "https://cloud.google.com/functions/docs",
+    "category": "compute",
+    "aliases": [
+      "cloud functions",
+      "functions",
+      "serverless",
+      "cloud run functions"
+    ],
+    "skills": [
+      "create function",
+      "deploy function"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "app-engine",
+    "name": "App Engine",
+    "url": "https://console.cloud.google.com/appengine",
+    "doc": "https://cloud.google.com/appengine/docs",
+    "category": "compute",
+    "aliases": [
+      "app engine",
+      "gae"
+    ],
+    "skills": [
+      "deploy app engine",
+      "manage versions"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-storage",
+    "name": "Cloud Storage",
+    "url": "https://console.cloud.google.com/storage/browser",
+    "doc": "https://cloud.google.com/storage/docs",
+    "category": "storage",
+    "aliases": [
+      "cloud storage",
+      "gcs",
+      "storage",
+      "bucket",
+      "buckets",
+      "object storage"
+    ],
+    "skills": [
+      "create bucket",
+      "upload files",
+      "manage buckets",
+      "set permissions"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "persistent-disk",
+    "name": "Persistent Disk",
+    "url": "https://console.cloud.google.com/compute/disks",
+    "doc": "https://cloud.google.com/compute/docs/disks",
+    "category": "storage",
+    "aliases": [
+      "persistent disk",
+      "disks",
+      "disk",
+      "block storage"
+    ],
+    "skills": [
+      "create disk",
+      "attach disk"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "filestore",
+    "name": "Filestore",
+    "url": "https://console.cloud.google.com/filestore",
+    "doc": "https://cloud.google.com/filestore/docs",
+    "category": "storage",
+    "aliases": [
+      "filestore",
+      "file storage",
+      "nfs"
+    ],
+    "skills": [
+      "manage filestore instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "vpc",
+    "name": "VPC network",
+    "url": "https://console.cloud.google.com/networking/networks/list",
+    "doc": "https://cloud.google.com/vpc/docs",
+    "category": "networking",
+    "aliases": [
+      "vpc",
+      "vpc network",
+      "virtual private cloud",
+      "network",
+      "subnets"
+    ],
+    "skills": [
+      "create vpc",
+      "manage subnets",
+      "firewall rules"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "load-balancing",
+    "name": "Cloud Load Balancing",
+    "url": "https://console.cloud.google.com/net-services/loadbalancing/list/loadBalancers",
+    "doc": "https://cloud.google.com/load-balancing/docs",
+    "category": "networking",
+    "aliases": [
+      "load balancing",
+      "load balancer",
+      "lb"
+    ],
+    "skills": [
+      "configure load balancer"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-dns",
+    "name": "Cloud DNS",
+    "url": "https://console.cloud.google.com/net-services/dns/zones",
+    "doc": "https://cloud.google.com/dns/docs",
+    "category": "networking",
+    "aliases": [
+      "cloud dns",
+      "dns",
+      "dns zones"
+    ],
+    "skills": [
+      "manage dns zone",
+      "add records"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-cdn",
+    "name": "Cloud CDN",
+    "url": "https://console.cloud.google.com/net-services/cdn/list",
+    "doc": "https://cloud.google.com/cdn/docs",
+    "category": "networking",
+    "aliases": [
+      "cloud cdn",
+      "cdn"
+    ],
+    "skills": [
+      "enable cdn",
+      "manage cdn"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-armor",
+    "name": "Cloud Armor",
+    "url": "https://console.cloud.google.com/net-security/securitypolicies/list",
+    "doc": "https://cloud.google.com/armor/docs",
+    "category": "security",
+    "aliases": [
+      "cloud armor",
+      "waf",
+      "ddos protection",
+      "security policies"
+    ],
+    "skills": [
+      "manage security policy",
+      "waf rules"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "iam",
+    "name": "IAM & Admin",
+    "url": "https://console.cloud.google.com/iam-admin/iam",
+    "doc": "https://cloud.google.com/iam/docs",
+    "category": "identity",
+    "aliases": [
+      "iam",
+      "identity",
+      "identity and access management",
+      "permissions",
+      "roles",
+      "admin",
+      "access"
+    ],
+    "skills": [
+      "grant role",
+      "manage permissions",
+      "service accounts",
+      "iam policy"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "service-accounts",
+    "name": "Service Accounts",
+    "url": "https://console.cloud.google.com/iam-admin/serviceaccounts",
+    "doc": "https://cloud.google.com/iam/docs/service-account-overview",
+    "category": "identity",
+    "aliases": [
+      "service accounts",
+      "service account"
+    ],
+    "skills": [
+      "create service account",
+      "manage keys"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "kms",
+    "name": "Cloud KMS",
+    "url": "https://console.cloud.google.com/security/kms",
+    "doc": "https://cloud.google.com/kms/docs",
+    "category": "security",
+    "aliases": [
+      "kms",
+      "cloud kms",
+      "key management",
+      "encryption keys",
+      "keys"
+    ],
+    "skills": [
+      "create key ring",
+      "manage encryption keys"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "secret-manager",
+    "name": "Secret Manager",
+    "url": "https://console.cloud.google.com/security/secret-manager",
+    "doc": "https://cloud.google.com/secret-manager/docs",
+    "category": "security",
+    "aliases": [
+      "secret manager",
+      "secrets"
+    ],
+    "skills": [
+      "create secret",
+      "access secret"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "security-command-center",
+    "name": "Security Command Center",
+    "url": "https://console.cloud.google.com/security/command-center",
+    "doc": "https://cloud.google.com/security-command-center/docs",
+    "category": "security",
+    "aliases": [
+      "security command center",
+      "scc",
+      "security findings"
+    ],
+    "skills": [
+      "review findings",
+      "security posture"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "monitoring",
+    "name": "Cloud Monitoring",
+    "url": "https://console.cloud.google.com/monitoring",
+    "doc": "https://cloud.google.com/monitoring/docs",
+    "category": "monitoring",
+    "aliases": [
+      "monitoring",
+      "cloud monitoring",
+      "metrics",
+      "observability",
+      "stackdriver monitoring"
+    ],
+    "skills": [
+      "view metrics",
+      "create alert",
+      "dashboards"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "logging",
+    "name": "Cloud Logging",
+    "url": "https://console.cloud.google.com/logs",
+    "doc": "https://cloud.google.com/logging/docs",
+    "category": "monitoring",
+    "aliases": [
+      "logging",
+      "cloud logging",
+      "logs",
+      "log explorer",
+      "stackdriver logging"
+    ],
+    "skills": [
+      "view logs",
+      "create log query"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "billing",
+    "name": "Billing",
+    "url": "https://console.cloud.google.com/billing",
+    "doc": "https://cloud.google.com/billing/docs",
+    "category": "management",
+    "aliases": [
+      "billing",
+      "costs",
+      "cost management",
+      "budgets",
+      "spend"
+    ],
+    "skills": [
+      "review costs",
+      "manage billing",
+      "budgets and alerts"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-sql",
+    "name": "Cloud SQL",
+    "url": "https://console.cloud.google.com/sql/instances",
+    "doc": "https://cloud.google.com/sql/docs",
+    "category": "databases",
+    "aliases": [
+      "cloud sql",
+      "sql",
+      "database",
+      "databases",
+      "mysql postgres sqlserver"
+    ],
+    "skills": [
+      "create instance",
+      "manage cloud sql",
+      "connect to database"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "bigquery",
+    "name": "BigQuery",
+    "url": "https://console.cloud.google.com/bigquery",
+    "doc": "https://cloud.google.com/bigquery/docs",
+    "category": "databases",
+    "aliases": [
+      "bigquery",
+      "data warehouse",
+      "analytics",
+      "big query"
+    ],
+    "skills": [
+      "run query",
+      "manage datasets",
+      "analyze data"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "firestore",
+    "name": "Firestore",
+    "url": "https://console.cloud.google.com/firestore",
+    "doc": "https://cloud.google.com/firestore/docs",
+    "category": "databases",
+    "aliases": [
+      "firestore",
+      "nosql",
+      "document database"
+    ],
+    "skills": [
+      "manage firestore data"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "spanner",
+    "name": "Cloud Spanner",
+    "url": "https://console.cloud.google.com/spanner",
+    "doc": "https://cloud.google.com/spanner/docs",
+    "category": "databases",
+    "aliases": [
+      "spanner",
+      "cloud spanner",
+      "distributed sql"
+    ],
+    "skills": [
+      "manage spanner instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "pubsub",
+    "name": "Pub/Sub",
+    "url": "https://console.cloud.google.com/cloudpubsub",
+    "doc": "https://cloud.google.com/pubsub/docs",
+    "category": "integration",
+    "aliases": [
+      "pubsub",
+      "pub sub",
+      "messaging",
+      "topics",
+      "subscriptions"
+    ],
+    "skills": [
+      "create topic",
+      "publish message"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-build",
+    "name": "Cloud Build",
+    "url": "https://console.cloud.google.com/cloud-build",
+    "doc": "https://cloud.google.com/build/docs",
+    "category": "devops",
+    "aliases": [
+      "cloud build",
+      "ci cd",
+      "build"
+    ],
+    "skills": [
+      "run build",
+      "manage triggers"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "artifact-registry",
+    "name": "Artifact Registry",
+    "url": "https://console.cloud.google.com/artifacts",
+    "doc": "https://cloud.google.com/artifact-registry/docs",
+    "category": "devops",
+    "aliases": [
+      "artifact registry",
+      "container registry",
+      "registry",
+      "images"
+    ],
+    "skills": [
+      "manage repositories",
+      "push image"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-shell",
+    "name": "Cloud Shell",
+    "url": "https://console.cloud.google.com/?cloudshell=true",
+    "doc": "https://cloud.google.com/shell/docs",
+    "category": "management",
+    "aliases": [
+      "cloud shell",
+      "gcloud shell",
+      "shell"
+    ],
+    "skills": [
+      "open cloud shell",
+      "run gcloud"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "resource-manager",
+    "name": "Resource Manager",
+    "url": "https://console.cloud.google.com/cloud-resource-manager",
+    "doc": "https://cloud.google.com/resource-manager/docs",
+    "category": "management",
+    "aliases": [
+      "resource manager",
+      "projects",
+      "folders",
+      "organization"
+    ],
+    "skills": [
+      "manage projects",
+      "view hierarchy"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "marketplace",
+    "name": "Google Cloud Marketplace",
+    "url": "https://console.cloud.google.com/marketplace",
+    "doc": "https://cloud.google.com/marketplace/docs",
+    "category": "management",
+    "aliases": [
+      "marketplace",
+      "cloud marketplace"
+    ],
+    "skills": [
+      "browse marketplace solutions"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "alloydb",
+    "name": "AlloyDB for PostgreSQL",
+    "url": "https://console.cloud.google.com/alloydb",
+    "doc": "https://cloud.google.com/alloydb/docs",
+    "category": "databases",
+    "aliases": [
+      "alloydb",
+      "alloy db",
+      "postgresql alloydb"
+    ],
+    "skills": [
+      "manage alloydb cluster"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "memorystore",
+    "name": "Memorystore",
+    "url": "https://console.cloud.google.com/memorystore",
+    "doc": "https://cloud.google.com/memorystore/docs",
+    "category": "databases",
+    "aliases": [
+      "memorystore",
+      "redis memorystore",
+      "cache"
+    ],
+    "skills": [
+      "manage redis instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "bigtable",
+    "name": "Cloud Bigtable",
+    "url": "https://console.cloud.google.com/bigtable",
+    "doc": "https://cloud.google.com/bigtable/docs",
+    "category": "databases",
+    "aliases": [
+      "bigtable",
+      "cloud bigtable",
+      "wide column nosql"
+    ],
+    "skills": [
+      "manage bigtable instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "dataflow",
+    "name": "Dataflow",
+    "url": "https://console.cloud.google.com/dataflow",
+    "doc": "https://cloud.google.com/dataflow/docs",
+    "category": "analytics",
+    "aliases": [
+      "dataflow",
+      "streaming batch pipelines"
+    ],
+    "skills": [
+      "manage dataflow jobs"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "dataproc",
+    "name": "Dataproc",
+    "url": "https://console.cloud.google.com/dataproc",
+    "doc": "https://cloud.google.com/dataproc/docs",
+    "category": "analytics",
+    "aliases": [
+      "dataproc",
+      "spark hadoop managed"
+    ],
+    "skills": [
+      "manage dataproc clusters"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "composer",
+    "name": "Cloud Composer",
+    "url": "https://console.cloud.google.com/composer",
+    "doc": "https://cloud.google.com/composer/docs",
+    "category": "analytics",
+    "aliases": [
+      "cloud composer",
+      "airflow",
+      "composer"
+    ],
+    "skills": [
+      "manage airflow environment"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "looker",
+    "name": "Looker",
+    "url": "https://console.cloud.google.com/looker",
+    "doc": "https://cloud.google.com/looker/docs",
+    "category": "analytics",
+    "aliases": [
+      "looker",
+      "bi",
+      "business intelligence"
+    ],
+    "skills": [
+      "open looker"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "vertex-ai",
+    "name": "Vertex AI",
+    "url": "https://console.cloud.google.com/vertex-ai",
+    "doc": "https://cloud.google.com/vertex-ai/docs",
+    "category": "ai",
+    "aliases": [
+      "vertex ai",
+      "vertex",
+      "ml platform"
+    ],
+    "skills": [
+      "manage vertex ai resources"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-nat",
+    "name": "Cloud NAT",
+    "url": "https://console.cloud.google.com/net-services/nat/list",
+    "doc": "https://cloud.google.com/nat/docs",
+    "category": "networking",
+    "aliases": [
+      "cloud nat",
+      "nat"
+    ],
+    "skills": [
+      "manage nat gateways"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-vpn",
+    "name": "Cloud VPN",
+    "url": "https://console.cloud.google.com/hybrid/vpn/list",
+    "doc": "https://cloud.google.com/network-connectivity/docs/vpn",
+    "category": "networking",
+    "aliases": [
+      "cloud vpn",
+      "vpn"
+    ],
+    "skills": [
+      "manage vpn tunnels"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "interconnect",
+    "name": "Cloud Interconnect",
+    "url": "https://console.cloud.google.com/hybrid/interconnects/list",
+    "doc": "https://cloud.google.com/network-connectivity/docs/interconnect",
+    "category": "networking",
+    "aliases": [
+      "interconnect",
+      "cloud interconnect",
+      "dedicated interconnect"
+    ],
+    "skills": [
+      "manage interconnect"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "network-intelligence",
+    "name": "Network Intelligence Center",
+    "url": "https://console.cloud.google.com/net-intelligence",
+    "doc": "https://cloud.google.com/network-intelligence-center/docs",
+    "category": "networking",
+    "aliases": [
+      "network intelligence",
+      "network topology",
+      "connectivity tests"
+    ],
+    "skills": [
+      "diagnose network"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "iap",
+    "name": "Identity-Aware Proxy",
+    "url": "https://console.cloud.google.com/security/iap",
+    "doc": "https://cloud.google.com/iap/docs",
+    "category": "security",
+    "aliases": [
+      "iap",
+      "identity aware proxy",
+      "zero trust access"
+    ],
+    "skills": [
+      "configure iap access"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "certificate-manager",
+    "name": "Certificate Manager",
+    "url": "https://console.cloud.google.com/security/ccm/list/lbCertificates",
+    "doc": "https://cloud.google.com/certificate-manager/docs",
+    "category": "security",
+    "aliases": [
+      "certificate manager",
+      "ssl certificates",
+      "tls certificates"
+    ],
+    "skills": [
+      "manage certificates"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-ids",
+    "name": "Cloud IDS",
+    "url": "https://console.cloud.google.com/net-security/ids/list",
+    "doc": "https://cloud.google.com/intrusion-detection-system/docs",
+    "category": "security",
+    "aliases": [
+      "cloud ids",
+      "intrusion detection"
+    ],
+    "skills": [
+      "manage ids endpoints"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "org-policy",
+    "name": "Organization Policy",
+    "url": "https://console.cloud.google.com/iam-admin/orgpolicies/list",
+    "doc": "https://cloud.google.com/resource-manager/docs/organization-policy/overview",
+    "category": "governance",
+    "aliases": [
+      "organization policy",
+      "org policy",
+      "constraints"
+    ],
+    "skills": [
+      "manage org policies"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "asset-inventory",
+    "name": "Cloud Asset Inventory",
+    "url": "https://console.cloud.google.com/iam-admin/asset-inventory",
+    "doc": "https://cloud.google.com/asset-inventory/docs",
+    "category": "governance",
+    "aliases": [
+      "asset inventory",
+      "cloud assets"
+    ],
+    "skills": [
+      "search assets",
+      "view inventory"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "error-reporting",
+    "name": "Error Reporting",
+    "url": "https://console.cloud.google.com/errors",
+    "doc": "https://cloud.google.com/error-reporting/docs",
+    "category": "monitoring",
+    "aliases": [
+      "error reporting",
+      "errors"
+    ],
+    "skills": [
+      "view application errors"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "trace",
+    "name": "Cloud Trace",
+    "url": "https://console.cloud.google.com/traces",
+    "doc": "https://cloud.google.com/trace/docs",
+    "category": "monitoring",
+    "aliases": [
+      "cloud trace",
+      "trace",
+      "distributed tracing"
+    ],
+    "skills": [
+      "view traces"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "profiler",
+    "name": "Cloud Profiler",
+    "url": "https://console.cloud.google.com/profiler",
+    "doc": "https://cloud.google.com/profiler/docs",
+    "category": "monitoring",
+    "aliases": [
+      "cloud profiler",
+      "profiler"
+    ],
+    "skills": [
+      "profile performance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "deploy",
+    "name": "Cloud Deploy",
+    "url": "https://console.cloud.google.com/deploy",
+    "doc": "https://cloud.google.com/deploy/docs",
+    "category": "devops",
+    "aliases": [
+      "cloud deploy",
+      "continuous delivery"
+    ],
+    "skills": [
+      "manage delivery pipelines"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "scheduler",
+    "name": "Cloud Scheduler",
+    "url": "https://console.cloud.google.com/cloudscheduler",
+    "doc": "https://cloud.google.com/scheduler/docs",
+    "category": "management",
+    "aliases": [
+      "cloud scheduler",
+      "cron jobs",
+      "scheduler"
+    ],
+    "skills": [
+      "manage scheduled jobs"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "tasks",
+    "name": "Cloud Tasks",
+    "url": "https://console.cloud.google.com/cloudtasks",
+    "doc": "https://cloud.google.com/tasks/docs",
+    "category": "integration",
+    "aliases": [
+      "cloud tasks",
+      "task queues"
+    ],
+    "skills": [
+      "manage task queues"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "workflows",
+    "name": "Workflows",
+    "url": "https://console.cloud.google.com/workflows",
+    "doc": "https://cloud.google.com/workflows/docs",
+    "category": "integration",
+    "aliases": [
+      "workflows",
+      "workflow orchestration"
+    ],
+    "skills": [
+      "manage workflows"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "api-gateway",
+    "name": "API Gateway",
+    "url": "https://console.cloud.google.com/api-gateway",
+    "doc": "https://cloud.google.com/api-gateway/docs",
+    "category": "integration",
+    "aliases": [
+      "api gateway",
+      "gcp api gateway"
+    ],
+    "skills": [
+      "manage apis"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "apigee",
+    "name": "Apigee",
+    "url": "https://console.cloud.google.com/apigee",
+    "doc": "https://cloud.google.com/apigee/docs",
+    "category": "integration",
+    "aliases": [
+      "apigee",
+      "api management"
+    ],
+    "skills": [
+      "manage apigee apis"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "endpoints",
+    "name": "Cloud Endpoints",
+    "url": "https://console.cloud.google.com/endpoints",
+    "doc": "https://cloud.google.com/endpoints/docs",
+    "category": "integration",
+    "aliases": [
+      "cloud endpoints",
+      "api endpoints"
+    ],
+    "skills": [
+      "manage api endpoints"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "backup-dr",
+    "name": "Backup and DR Service",
+    "url": "https://console.cloud.google.com/backupdr",
+    "doc": "https://cloud.google.com/backup-disaster-recovery/docs",
+    "category": "management",
+    "aliases": [
+      "backup and dr",
+      "backup dr",
+      "disaster recovery"
+    ],
+    "skills": [
+      "manage backups",
+      "disaster recovery"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "transfer-service",
+    "name": "Storage Transfer Service",
+    "url": "https://console.cloud.google.com/transfer",
+    "doc": "https://cloud.google.com/storage-transfer/docs",
+    "category": "management",
+    "aliases": [
+      "storage transfer service",
+      "data transfer"
+    ],
+    "skills": [
+      "transfer data"
+    ]
+  }
+]

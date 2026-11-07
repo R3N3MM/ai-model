@@ -1,0 +1,3218 @@
+[
+  {
+    "cloud": "azure",
+    "key": "home",
+    "name": "Microsoft Azure Portal",
+    "url": "https://portal.azure.com/",
+    "doc": "https://learn.microsoft.com/en-us/azure/",
+    "category": "portal",
+    "aliases": [
+      "azure",
+      "microsoft azure",
+      "azure portal",
+      "ms azure"
+    ],
+    "skills": [
+      "open portal",
+      "azure dashboard",
+      "sign in to azure"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "virtual-machines",
+    "name": "Azure Virtual Machines",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-machines/",
+    "category": "compute",
+    "aliases": [
+      "virtual machines",
+      "vms",
+      "vm",
+      "compute",
+      "servers"
+    ],
+    "skills": [
+      "create vm",
+      "manage virtual machines",
+      "start stop vm",
+      "resize vm"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "vmss",
+    "name": "Virtual Machine Scale Sets",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachineScaleSets",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/",
+    "category": "compute",
+    "aliases": [
+      "scale sets",
+      "vmss",
+      "virtual machine scale sets"
+    ],
+    "skills": [
+      "scale vms",
+      "autoscale compute"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "app-service",
+    "name": "Azure App Service",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites",
+    "doc": "https://learn.microsoft.com/en-us/azure/app-service/",
+    "category": "compute",
+    "aliases": [
+      "app service",
+      "web apps",
+      "webapp",
+      "app services"
+    ],
+    "skills": [
+      "deploy web app",
+      "manage app service",
+      "configure web app"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "aks",
+    "name": "Azure Kubernetes Service",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerService%2FmanagedClusters",
+    "doc": "https://learn.microsoft.com/en-us/azure/aks/",
+    "category": "containers",
+    "aliases": [
+      "aks",
+      "kubernetes",
+      "k8s",
+      "kubernetes service"
+    ],
+    "skills": [
+      "manage kubernetes cluster",
+      "deploy to aks",
+      "scale aks"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "container-instances",
+    "name": "Azure Container Instances",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerInstance%2FcontainerGroups",
+    "doc": "https://learn.microsoft.com/en-us/azure/container-instances/",
+    "category": "containers",
+    "aliases": [
+      "container instances",
+      "aci",
+      "containers"
+    ],
+    "skills": [
+      "run container",
+      "deploy container instance"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "container-registry",
+    "name": "Azure Container Registry",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ContainerRegistry%2Fregistries",
+    "doc": "https://learn.microsoft.com/en-us/azure/container-registry/",
+    "category": "containers",
+    "aliases": [
+      "container registry",
+      "acr",
+      "registry"
+    ],
+    "skills": [
+      "push image",
+      "manage container registry"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "functions",
+    "name": "Azure Functions",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2Fsites/kind/functionapp",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-functions/",
+    "category": "compute",
+    "aliases": [
+      "functions",
+      "function app",
+      "serverless",
+      "azure functions"
+    ],
+    "skills": [
+      "create function",
+      "deploy serverless function"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "storage",
+    "name": "Azure Storage Accounts",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/storage/",
+    "category": "storage",
+    "aliases": [
+      "storage",
+      "storage accounts",
+      "storage account",
+      "blob",
+      "blobs",
+      "object storage"
+    ],
+    "skills": [
+      "manage storage account",
+      "create blob container",
+      "upload files to storage"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "blob-storage",
+    "name": "Azure Blob Storage",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/storage/blobs/",
+    "category": "storage",
+    "aliases": [
+      "blob storage",
+      "blob containers"
+    ],
+    "skills": [
+      "manage blobs",
+      "create container"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "files",
+    "name": "Azure Files",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/storage/files/",
+    "category": "storage",
+    "aliases": [
+      "azure files",
+      "file shares",
+      "file share"
+    ],
+    "skills": [
+      "manage file shares",
+      "mount azure files"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "disk",
+    "name": "Azure Disk Storage",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2Fdisks",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview",
+    "category": "storage",
+    "aliases": [
+      "disks",
+      "managed disks",
+      "disk storage"
+    ],
+    "skills": [
+      "attach disk",
+      "manage managed disks"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "vnet",
+    "name": "Azure Virtual Network",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworks",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-network/",
+    "category": "networking",
+    "aliases": [
+      "virtual network",
+      "vnet",
+      "vnets",
+      "network"
+    ],
+    "skills": [
+      "create vnet",
+      "configure subnets",
+      "manage virtual network"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "load-balancer",
+    "name": "Azure Load Balancer",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FloadBalancers",
+    "doc": "https://learn.microsoft.com/en-us/azure/load-balancer/",
+    "category": "networking",
+    "aliases": [
+      "load balancer",
+      "lb"
+    ],
+    "skills": [
+      "configure load balancer",
+      "balance traffic"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "application-gateway",
+    "name": "Azure Application Gateway",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FapplicationGateways",
+    "doc": "https://learn.microsoft.com/en-us/azure/application-gateway/",
+    "category": "networking",
+    "aliases": [
+      "application gateway",
+      "app gateway",
+      "waf gateway"
+    ],
+    "skills": [
+      "configure application gateway"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "dns",
+    "name": "Azure DNS",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FdnsZones",
+    "doc": "https://learn.microsoft.com/en-us/azure/dns/",
+    "category": "networking",
+    "aliases": [
+      "dns",
+      "dns zones",
+      "azure dns"
+    ],
+    "skills": [
+      "manage dns zone",
+      "add dns records"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "front-door",
+    "name": "Azure Front Door",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cdn%2Fprofiles",
+    "doc": "https://learn.microsoft.com/en-us/azure/frontdoor/",
+    "category": "networking",
+    "aliases": [
+      "front door",
+      "cdn",
+      "frontdoor"
+    ],
+    "skills": [
+      "configure front door",
+      "global load balancing"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "vpn-gateway",
+    "name": "Azure VPN Gateway",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FvirtualNetworkGateways",
+    "doc": "https://learn.microsoft.com/en-us/azure/vpn-gateway/",
+    "category": "networking",
+    "aliases": [
+      "vpn gateway",
+      "vpn",
+      "virtual network gateway"
+    ],
+    "skills": [
+      "configure vpn",
+      "site to site vpn"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "firewall",
+    "name": "Azure Firewall",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FazureFirewalls",
+    "doc": "https://learn.microsoft.com/en-us/azure/firewall/",
+    "category": "networking",
+    "aliases": [
+      "firewall",
+      "azure firewall"
+    ],
+    "skills": [
+      "configure firewall rules",
+      "manage firewall"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "entra",
+    "name": "Microsoft Entra ID",
+    "url": "https://portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview",
+    "doc": "https://learn.microsoft.com/en-us/entra/identity/",
+    "category": "identity",
+    "aliases": [
+      "entra",
+      "entra id",
+      "active directory",
+      "azure ad",
+      "aad",
+      "identity",
+      "iam"
+    ],
+    "skills": [
+      "manage users",
+      "manage groups",
+      "identity and access",
+      "configure sso"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "rbac",
+    "name": "Azure RBAC / Access Control",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseAll",
+    "doc": "https://learn.microsoft.com/en-us/azure/role-based-access-control/",
+    "category": "identity",
+    "aliases": [
+      "rbac",
+      "role based access control",
+      "access control",
+      "permissions",
+      "roles"
+    ],
+    "skills": [
+      "assign roles",
+      "manage permissions",
+      "access control iam"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "key-vault",
+    "name": "Azure Key Vault",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.KeyVault%2Fvaults",
+    "doc": "https://learn.microsoft.com/en-us/azure/key-vault/",
+    "category": "security",
+    "aliases": [
+      "key vault",
+      "secrets",
+      "keys",
+      "certificates",
+      "vault"
+    ],
+    "skills": [
+      "manage secrets",
+      "store keys",
+      "manage certificates"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "defender",
+    "name": "Microsoft Defender for Cloud",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0",
+    "doc": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/",
+    "category": "security",
+    "aliases": [
+      "defender for cloud",
+      "security center",
+      "defender",
+      "cloud security"
+    ],
+    "skills": [
+      "review security posture",
+      "security recommendations"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "policy",
+    "name": "Azure Policy",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/Overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/governance/policy/",
+    "category": "governance",
+    "aliases": [
+      "policy",
+      "azure policy",
+      "governance",
+      "compliance"
+    ],
+    "skills": [
+      "assign policy",
+      "check compliance"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "monitor",
+    "name": "Azure Monitor",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-monitor/",
+    "category": "monitoring",
+    "aliases": [
+      "monitor",
+      "azure monitor",
+      "monitoring",
+      "metrics",
+      "logs",
+      "observability"
+    ],
+    "skills": [
+      "view metrics",
+      "check logs",
+      "create alert"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "cost-management",
+    "name": "Cost Management + Billing",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_CostManagement/Menu/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/cost-management-billing/",
+    "category": "management",
+    "aliases": [
+      "cost management",
+      "billing",
+      "costs",
+      "budgets",
+      "spend"
+    ],
+    "skills": [
+      "review costs",
+      "manage billing",
+      "create budget"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "resource-groups",
+    "name": "Resource Groups",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResourceGroups",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal",
+    "category": "management",
+    "aliases": [
+      "resource groups",
+      "resource group",
+      "rg",
+      "resource manager"
+    ],
+    "skills": [
+      "create resource group",
+      "manage resources"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "subscriptions",
+    "name": "Azure Subscriptions",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2",
+    "doc": "https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/",
+    "category": "management",
+    "aliases": [
+      "subscriptions",
+      "subscription"
+    ],
+    "skills": [
+      "manage subscription",
+      "view subscriptions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "sql-database",
+    "name": "Azure SQL Database",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers%2Fdatabases",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-sql/database/",
+    "category": "databases",
+    "aliases": [
+      "sql database",
+      "azure sql",
+      "sql",
+      "database",
+      "databases"
+    ],
+    "skills": [
+      "manage sql database",
+      "query azure sql"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "cosmos-db",
+    "name": "Azure Cosmos DB",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DocumentDb%2FdatabaseAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/cosmos-db/",
+    "category": "databases",
+    "aliases": [
+      "cosmos db",
+      "cosmos",
+      "nosql"
+    ],
+    "skills": [
+      "manage cosmos db",
+      "query cosmos"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "postgresql",
+    "name": "Azure Database for PostgreSQL",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforPostgreSQL%2FflexibleServers",
+    "doc": "https://learn.microsoft.com/en-us/azure/postgresql/",
+    "category": "databases",
+    "aliases": [
+      "postgresql",
+      "postgres",
+      "azure postgres"
+    ],
+    "skills": [
+      "manage postgresql",
+      "connect to postgres"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "mysql",
+    "name": "Azure Database for MySQL",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforMySQL%2FflexibleServers",
+    "doc": "https://learn.microsoft.com/en-us/azure/mysql/",
+    "category": "databases",
+    "aliases": [
+      "mysql",
+      "azure mysql"
+    ],
+    "skills": [
+      "manage mysql database"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "backup",
+    "name": "Azure Backup",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults",
+    "doc": "https://learn.microsoft.com/en-us/azure/backup/",
+    "category": "management",
+    "aliases": [
+      "backup",
+      "recovery services",
+      "vault backup"
+    ],
+    "skills": [
+      "configure backup",
+      "restore backup"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "devops",
+    "name": "Azure DevOps",
+    "url": "https://dev.azure.com/",
+    "doc": "https://learn.microsoft.com/en-us/azure/devops/",
+    "category": "devops",
+    "aliases": [
+      "azure devops",
+      "devops",
+      "pipelines",
+      "repos",
+      "boards"
+    ],
+    "skills": [
+      "open pipelines",
+      "manage repos",
+      "devops project"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "cloud-shell",
+    "name": "Azure Cloud Shell",
+    "url": "https://portal.azure.com/#cloudshell/",
+    "doc": "https://learn.microsoft.com/en-us/azure/cloud-shell/overview",
+    "category": "management",
+    "aliases": [
+      "cloud shell",
+      "azure shell",
+      "bash cloud shell"
+    ],
+    "skills": [
+      "open cloud shell",
+      "run azure cli"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "advisor",
+    "name": "Azure Advisor",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Expert/AdvisorMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/advisor/",
+    "category": "management",
+    "aliases": [
+      "advisor",
+      "azure advisor",
+      "recommendations"
+    ],
+    "skills": [
+      "view recommendations",
+      "optimize azure"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "home",
+    "name": "AWS Management Console",
+    "url": "https://console.aws.amazon.com/",
+    "doc": "https://docs.aws.amazon.com/",
+    "category": "portal",
+    "aliases": [
+      "aws",
+      "amazon web services",
+      "aws console",
+      "amazon aws"
+    ],
+    "skills": [
+      "open console",
+      "aws dashboard",
+      "sign in to aws"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ec2",
+    "name": "Amazon EC2",
+    "url": "https://console.aws.amazon.com/ec2/",
+    "doc": "https://docs.aws.amazon.com/ec2/",
+    "category": "compute",
+    "aliases": [
+      "ec2",
+      "elastic compute cloud",
+      "virtual machines",
+      "vms",
+      "vm",
+      "instances",
+      "compute",
+      "servers"
+    ],
+    "skills": [
+      "launch instance",
+      "manage ec2",
+      "start stop instance",
+      "ssh to instance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "lambda",
+    "name": "AWS Lambda",
+    "url": "https://console.aws.amazon.com/lambda/",
+    "doc": "https://docs.aws.amazon.com/lambda/",
+    "category": "compute",
+    "aliases": [
+      "lambda",
+      "serverless",
+      "functions",
+      "aws lambda"
+    ],
+    "skills": [
+      "create function",
+      "deploy lambda",
+      "invoke function"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ecs",
+    "name": "Amazon ECS",
+    "url": "https://console.aws.amazon.com/ecs/",
+    "doc": "https://docs.aws.amazon.com/ecs/",
+    "category": "containers",
+    "aliases": [
+      "ecs",
+      "elastic container service",
+      "containers"
+    ],
+    "skills": [
+      "manage ecs cluster",
+      "deploy container service"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "eks",
+    "name": "Amazon EKS",
+    "url": "https://console.aws.amazon.com/eks/",
+    "doc": "https://docs.aws.amazon.com/eks/",
+    "category": "containers",
+    "aliases": [
+      "eks",
+      "kubernetes",
+      "k8s",
+      "elastic kubernetes service"
+    ],
+    "skills": [
+      "manage eks cluster",
+      "deploy to kubernetes"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ecr",
+    "name": "Amazon ECR",
+    "url": "https://console.aws.amazon.com/ecr/",
+    "doc": "https://docs.aws.amazon.com/ecr/",
+    "category": "containers",
+    "aliases": [
+      "ecr",
+      "container registry",
+      "elastic container registry",
+      "registry"
+    ],
+    "skills": [
+      "push image",
+      "manage repositories"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "lightsail",
+    "name": "Amazon Lightsail",
+    "url": "https://lightsail.aws.amazon.com/",
+    "doc": "https://docs.aws.amazon.com/lightsail/",
+    "category": "compute",
+    "aliases": [
+      "lightsail",
+      "vps"
+    ],
+    "skills": [
+      "manage lightsail instance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "s3",
+    "name": "Amazon S3",
+    "url": "https://console.aws.amazon.com/s3/",
+    "doc": "https://docs.aws.amazon.com/s3/",
+    "category": "storage",
+    "aliases": [
+      "s3",
+      "simple storage service",
+      "storage",
+      "bucket",
+      "buckets",
+      "object storage"
+    ],
+    "skills": [
+      "create bucket",
+      "upload to s3",
+      "manage s3 buckets",
+      "set bucket policy"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ebs",
+    "name": "Amazon EBS",
+    "url": "https://console.aws.amazon.com/ec2/home#Volumes:",
+    "doc": "https://docs.aws.amazon.com/ebs/",
+    "category": "storage",
+    "aliases": [
+      "ebs",
+      "elastic block store",
+      "volumes",
+      "disk",
+      "block storage"
+    ],
+    "skills": [
+      "manage volumes",
+      "attach ebs volume",
+      "snapshot volume"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "efs",
+    "name": "Amazon EFS",
+    "url": "https://console.aws.amazon.com/efs/",
+    "doc": "https://docs.aws.amazon.com/efs/",
+    "category": "storage",
+    "aliases": [
+      "efs",
+      "elastic file system",
+      "file system",
+      "nfs"
+    ],
+    "skills": [
+      "manage file systems",
+      "mount efs"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "vpc",
+    "name": "Amazon VPC",
+    "url": "https://console.aws.amazon.com/vpc/",
+    "doc": "https://docs.aws.amazon.com/vpc/",
+    "category": "networking",
+    "aliases": [
+      "vpc",
+      "virtual private cloud",
+      "network",
+      "subnets",
+      "subnet"
+    ],
+    "skills": [
+      "create vpc",
+      "manage subnets",
+      "configure route table"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "route53",
+    "name": "Amazon Route 53",
+    "url": "https://console.aws.amazon.com/route53/",
+    "doc": "https://docs.aws.amazon.com/route53/",
+    "category": "networking",
+    "aliases": [
+      "route 53",
+      "route53",
+      "dns",
+      "domain"
+    ],
+    "skills": [
+      "manage dns records",
+      "create hosted zone"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "elb",
+    "name": "Elastic Load Balancing",
+    "url": "https://console.aws.amazon.com/ec2/home#LoadBalancers:",
+    "doc": "https://docs.aws.amazon.com/elasticloadbalancing/",
+    "category": "networking",
+    "aliases": [
+      "elb",
+      "load balancer",
+      "load balancers",
+      "alb",
+      "nlb"
+    ],
+    "skills": [
+      "create load balancer",
+      "configure target group"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudfront",
+    "name": "Amazon CloudFront",
+    "url": "https://console.aws.amazon.com/cloudfront/",
+    "doc": "https://docs.aws.amazon.com/cloudfront/",
+    "category": "networking",
+    "aliases": [
+      "cloudfront",
+      "cdn",
+      "distribution"
+    ],
+    "skills": [
+      "create distribution",
+      "manage cdn"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "api-gateway",
+    "name": "Amazon API Gateway",
+    "url": "https://console.aws.amazon.com/apigateway/",
+    "doc": "https://docs.aws.amazon.com/apigateway/",
+    "category": "networking",
+    "aliases": [
+      "api gateway",
+      "apigateway",
+      "api"
+    ],
+    "skills": [
+      "create api",
+      "manage api gateway"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "iam",
+    "name": "AWS IAM",
+    "url": "https://console.aws.amazon.com/iam/",
+    "doc": "https://docs.aws.amazon.com/iam/",
+    "category": "identity",
+    "aliases": [
+      "iam",
+      "identity",
+      "identity and access management",
+      "users",
+      "roles",
+      "policies",
+      "permissions",
+      "access"
+    ],
+    "skills": [
+      "create user",
+      "manage roles",
+      "attach policy",
+      "manage permissions",
+      "mfa"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "organizations",
+    "name": "AWS Organizations",
+    "url": "https://console.aws.amazon.com/organizations/",
+    "doc": "https://docs.aws.amazon.com/organizations/",
+    "category": "identity",
+    "aliases": [
+      "organizations",
+      "orgs",
+      "accounts",
+      "aws organizations"
+    ],
+    "skills": [
+      "manage accounts",
+      "organizational units"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "kms",
+    "name": "AWS KMS",
+    "url": "https://console.aws.amazon.com/kms/",
+    "doc": "https://docs.aws.amazon.com/kms/",
+    "category": "security",
+    "aliases": [
+      "kms",
+      "key management service",
+      "keys",
+      "encryption"
+    ],
+    "skills": [
+      "create key",
+      "manage encryption keys"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "secrets-manager",
+    "name": "AWS Secrets Manager",
+    "url": "https://console.aws.amazon.com/secretsmanager/",
+    "doc": "https://docs.aws.amazon.com/secretsmanager/",
+    "category": "security",
+    "aliases": [
+      "secrets manager",
+      "secrets"
+    ],
+    "skills": [
+      "store secret",
+      "rotate secret"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "guardduty",
+    "name": "Amazon GuardDuty",
+    "url": "https://console.aws.amazon.com/guardduty/",
+    "doc": "https://docs.aws.amazon.com/guardduty/",
+    "category": "security",
+    "aliases": [
+      "guardduty",
+      "threat detection",
+      "security findings"
+    ],
+    "skills": [
+      "review findings",
+      "enable guardduty"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "waf",
+    "name": "AWS WAF",
+    "url": "https://console.aws.amazon.com/wafv2/",
+    "doc": "https://docs.aws.amazon.com/waf/",
+    "category": "security",
+    "aliases": [
+      "waf",
+      "web application firewall"
+    ],
+    "skills": [
+      "create web acl",
+      "manage waf rules"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudwatch",
+    "name": "Amazon CloudWatch",
+    "url": "https://console.aws.amazon.com/cloudwatch/",
+    "doc": "https://docs.aws.amazon.com/cloudwatch/",
+    "category": "monitoring",
+    "aliases": [
+      "cloudwatch",
+      "monitoring",
+      "metrics",
+      "logs",
+      "alarms",
+      "observability"
+    ],
+    "skills": [
+      "view metrics",
+      "check logs",
+      "create alarm",
+      "dashboards"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudtrail",
+    "name": "AWS CloudTrail",
+    "url": "https://console.aws.amazon.com/cloudtrail/",
+    "doc": "https://docs.aws.amazon.com/cloudtrail/",
+    "category": "monitoring",
+    "aliases": [
+      "cloudtrail",
+      "audit",
+      "activity",
+      "trail"
+    ],
+    "skills": [
+      "view audit logs",
+      "track api activity"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "billing",
+    "name": "AWS Billing and Cost Management",
+    "url": "https://console.aws.amazon.com/billing/",
+    "doc": "https://docs.aws.amazon.com/account-billing/",
+    "category": "management",
+    "aliases": [
+      "billing",
+      "cost management",
+      "costs",
+      "budgets",
+      "spend",
+      "cost explorer"
+    ],
+    "skills": [
+      "review bills",
+      "manage costs",
+      "create budget"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudformation",
+    "name": "AWS CloudFormation",
+    "url": "https://console.aws.amazon.com/cloudformation/",
+    "doc": "https://docs.aws.amazon.com/cloudformation/",
+    "category": "management",
+    "aliases": [
+      "cloudformation",
+      "stacks",
+      "infrastructure as code",
+      "iac",
+      "templates"
+    ],
+    "skills": [
+      "deploy stack",
+      "manage templates"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "systems-manager",
+    "name": "AWS Systems Manager",
+    "url": "https://console.aws.amazon.com/systems-manager/",
+    "doc": "https://docs.aws.amazon.com/systems-manager/",
+    "category": "management",
+    "aliases": [
+      "systems manager",
+      "ssm",
+      "patch manager",
+      "parameter store"
+    ],
+    "skills": [
+      "run command",
+      "manage parameters",
+      "patch instances"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "rds",
+    "name": "Amazon RDS",
+    "url": "https://console.aws.amazon.com/rds/",
+    "doc": "https://docs.aws.amazon.com/rds/",
+    "category": "databases",
+    "aliases": [
+      "rds",
+      "relational database service",
+      "database",
+      "databases",
+      "sql"
+    ],
+    "skills": [
+      "create database",
+      "manage rds instance",
+      "take snapshot"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "aurora",
+    "name": "Amazon Aurora",
+    "url": "https://console.aws.amazon.com/rds/home#databases:",
+    "doc": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/",
+    "category": "databases",
+    "aliases": [
+      "aurora",
+      "aurora database"
+    ],
+    "skills": [
+      "manage aurora cluster"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "dynamodb",
+    "name": "Amazon DynamoDB",
+    "url": "https://console.aws.amazon.com/dynamodb/",
+    "doc": "https://docs.aws.amazon.com/dynamodb/",
+    "category": "databases",
+    "aliases": [
+      "dynamodb",
+      "dynamo",
+      "nosql",
+      "dynamo db"
+    ],
+    "skills": [
+      "create table",
+      "query dynamodb",
+      "manage items"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "elasticache",
+    "name": "Amazon ElastiCache",
+    "url": "https://console.aws.amazon.com/elasticache/",
+    "doc": "https://docs.aws.amazon.com/elasticache/",
+    "category": "databases",
+    "aliases": [
+      "elasticache",
+      "redis",
+      "memcached",
+      "cache"
+    ],
+    "skills": [
+      "manage cache cluster"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "sqs",
+    "name": "Amazon SQS",
+    "url": "https://console.aws.amazon.com/sqs/",
+    "doc": "https://docs.aws.amazon.com/sqs/",
+    "category": "integration",
+    "aliases": [
+      "sqs",
+      "simple queue service",
+      "queue",
+      "queues"
+    ],
+    "skills": [
+      "create queue",
+      "send message"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "sns",
+    "name": "Amazon SNS",
+    "url": "https://console.aws.amazon.com/sns/",
+    "doc": "https://docs.aws.amazon.com/sns/",
+    "category": "integration",
+    "aliases": [
+      "sns",
+      "simple notification service",
+      "notifications",
+      "topics"
+    ],
+    "skills": [
+      "create topic",
+      "manage subscriptions"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudshell",
+    "name": "AWS CloudShell",
+    "url": "https://console.aws.amazon.com/cloudshell/",
+    "doc": "https://docs.aws.amazon.com/cloudshell/",
+    "category": "management",
+    "aliases": [
+      "cloudshell",
+      "aws cloud shell",
+      "shell"
+    ],
+    "skills": [
+      "open cloudshell",
+      "run aws cli"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "backup",
+    "name": "AWS Backup",
+    "url": "https://console.aws.amazon.com/backup/",
+    "doc": "https://docs.aws.amazon.com/aws-backup/",
+    "category": "management",
+    "aliases": [
+      "aws backup",
+      "backup",
+      "backups"
+    ],
+    "skills": [
+      "create backup plan",
+      "restore"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "home",
+    "name": "Google Cloud Console",
+    "url": "https://console.cloud.google.com/",
+    "doc": "https://cloud.google.com/docs",
+    "category": "portal",
+    "aliases": [
+      "gcp",
+      "google cloud",
+      "google cloud platform",
+      "gcloud",
+      "google cloud console"
+    ],
+    "skills": [
+      "open console",
+      "gcp dashboard",
+      "sign in to google cloud"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "compute-engine",
+    "name": "Compute Engine",
+    "url": "https://console.cloud.google.com/compute/instances",
+    "doc": "https://cloud.google.com/compute/docs",
+    "category": "compute",
+    "aliases": [
+      "compute engine",
+      "gce",
+      "virtual machines",
+      "vms",
+      "vm",
+      "instances",
+      "compute",
+      "servers"
+    ],
+    "skills": [
+      "create instance",
+      "manage vm instances",
+      "start stop instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "gke",
+    "name": "Google Kubernetes Engine",
+    "url": "https://console.cloud.google.com/kubernetes/list/overview",
+    "doc": "https://cloud.google.com/kubernetes-engine/docs",
+    "category": "containers",
+    "aliases": [
+      "gke",
+      "kubernetes",
+      "k8s",
+      "google kubernetes engine"
+    ],
+    "skills": [
+      "create cluster",
+      "manage gke",
+      "deploy to kubernetes"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-run",
+    "name": "Cloud Run",
+    "url": "https://console.cloud.google.com/run",
+    "doc": "https://cloud.google.com/run/docs",
+    "category": "compute",
+    "aliases": [
+      "cloud run",
+      "serverless containers",
+      "run"
+    ],
+    "skills": [
+      "deploy service",
+      "manage cloud run"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-functions",
+    "name": "Cloud Run functions",
+    "url": "https://console.cloud.google.com/functions/list",
+    "doc": "https://cloud.google.com/functions/docs",
+    "category": "compute",
+    "aliases": [
+      "cloud functions",
+      "functions",
+      "serverless",
+      "cloud run functions"
+    ],
+    "skills": [
+      "create function",
+      "deploy function"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "app-engine",
+    "name": "App Engine",
+    "url": "https://console.cloud.google.com/appengine",
+    "doc": "https://cloud.google.com/appengine/docs",
+    "category": "compute",
+    "aliases": [
+      "app engine",
+      "gae"
+    ],
+    "skills": [
+      "deploy app engine",
+      "manage versions"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-storage",
+    "name": "Cloud Storage",
+    "url": "https://console.cloud.google.com/storage/browser",
+    "doc": "https://cloud.google.com/storage/docs",
+    "category": "storage",
+    "aliases": [
+      "cloud storage",
+      "gcs",
+      "storage",
+      "bucket",
+      "buckets",
+      "object storage"
+    ],
+    "skills": [
+      "create bucket",
+      "upload files",
+      "manage buckets",
+      "set permissions"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "persistent-disk",
+    "name": "Persistent Disk",
+    "url": "https://console.cloud.google.com/compute/disks",
+    "doc": "https://cloud.google.com/compute/docs/disks",
+    "category": "storage",
+    "aliases": [
+      "persistent disk",
+      "disks",
+      "disk",
+      "block storage"
+    ],
+    "skills": [
+      "create disk",
+      "attach disk"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "filestore",
+    "name": "Filestore",
+    "url": "https://console.cloud.google.com/filestore",
+    "doc": "https://cloud.google.com/filestore/docs",
+    "category": "storage",
+    "aliases": [
+      "filestore",
+      "file storage",
+      "nfs"
+    ],
+    "skills": [
+      "manage filestore instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "vpc",
+    "name": "VPC network",
+    "url": "https://console.cloud.google.com/networking/networks/list",
+    "doc": "https://cloud.google.com/vpc/docs",
+    "category": "networking",
+    "aliases": [
+      "vpc",
+      "vpc network",
+      "virtual private cloud",
+      "network",
+      "subnets"
+    ],
+    "skills": [
+      "create vpc",
+      "manage subnets",
+      "firewall rules"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "load-balancing",
+    "name": "Cloud Load Balancing",
+    "url": "https://console.cloud.google.com/net-services/loadbalancing/list/loadBalancers",
+    "doc": "https://cloud.google.com/load-balancing/docs",
+    "category": "networking",
+    "aliases": [
+      "load balancing",
+      "load balancer",
+      "lb"
+    ],
+    "skills": [
+      "configure load balancer"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-dns",
+    "name": "Cloud DNS",
+    "url": "https://console.cloud.google.com/net-services/dns/zones",
+    "doc": "https://cloud.google.com/dns/docs",
+    "category": "networking",
+    "aliases": [
+      "cloud dns",
+      "dns",
+      "dns zones"
+    ],
+    "skills": [
+      "manage dns zone",
+      "add records"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-cdn",
+    "name": "Cloud CDN",
+    "url": "https://console.cloud.google.com/net-services/cdn/list",
+    "doc": "https://cloud.google.com/cdn/docs",
+    "category": "networking",
+    "aliases": [
+      "cloud cdn",
+      "cdn"
+    ],
+    "skills": [
+      "enable cdn",
+      "manage cdn"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-armor",
+    "name": "Cloud Armor",
+    "url": "https://console.cloud.google.com/net-security/securitypolicies/list",
+    "doc": "https://cloud.google.com/armor/docs",
+    "category": "security",
+    "aliases": [
+      "cloud armor",
+      "waf",
+      "ddos protection",
+      "security policies"
+    ],
+    "skills": [
+      "manage security policy",
+      "waf rules"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "iam",
+    "name": "IAM & Admin",
+    "url": "https://console.cloud.google.com/iam-admin/iam",
+    "doc": "https://cloud.google.com/iam/docs",
+    "category": "identity",
+    "aliases": [
+      "iam",
+      "identity",
+      "identity and access management",
+      "permissions",
+      "roles",
+      "admin",
+      "access"
+    ],
+    "skills": [
+      "grant role",
+      "manage permissions",
+      "service accounts",
+      "iam policy"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "service-accounts",
+    "name": "Service Accounts",
+    "url": "https://console.cloud.google.com/iam-admin/serviceaccounts",
+    "doc": "https://cloud.google.com/iam/docs/service-account-overview",
+    "category": "identity",
+    "aliases": [
+      "service accounts",
+      "service account"
+    ],
+    "skills": [
+      "create service account",
+      "manage keys"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "kms",
+    "name": "Cloud KMS",
+    "url": "https://console.cloud.google.com/security/kms",
+    "doc": "https://cloud.google.com/kms/docs",
+    "category": "security",
+    "aliases": [
+      "kms",
+      "cloud kms",
+      "key management",
+      "encryption keys",
+      "keys"
+    ],
+    "skills": [
+      "create key ring",
+      "manage encryption keys"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "secret-manager",
+    "name": "Secret Manager",
+    "url": "https://console.cloud.google.com/security/secret-manager",
+    "doc": "https://cloud.google.com/secret-manager/docs",
+    "category": "security",
+    "aliases": [
+      "secret manager",
+      "secrets"
+    ],
+    "skills": [
+      "create secret",
+      "access secret"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "security-command-center",
+    "name": "Security Command Center",
+    "url": "https://console.cloud.google.com/security/command-center",
+    "doc": "https://cloud.google.com/security-command-center/docs",
+    "category": "security",
+    "aliases": [
+      "security command center",
+      "scc",
+      "security findings"
+    ],
+    "skills": [
+      "review findings",
+      "security posture"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "monitoring",
+    "name": "Cloud Monitoring",
+    "url": "https://console.cloud.google.com/monitoring",
+    "doc": "https://cloud.google.com/monitoring/docs",
+    "category": "monitoring",
+    "aliases": [
+      "monitoring",
+      "cloud monitoring",
+      "metrics",
+      "observability",
+      "stackdriver monitoring"
+    ],
+    "skills": [
+      "view metrics",
+      "create alert",
+      "dashboards"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "logging",
+    "name": "Cloud Logging",
+    "url": "https://console.cloud.google.com/logs",
+    "doc": "https://cloud.google.com/logging/docs",
+    "category": "monitoring",
+    "aliases": [
+      "logging",
+      "cloud logging",
+      "logs",
+      "log explorer",
+      "stackdriver logging"
+    ],
+    "skills": [
+      "view logs",
+      "create log query"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "billing",
+    "name": "Billing",
+    "url": "https://console.cloud.google.com/billing",
+    "doc": "https://cloud.google.com/billing/docs",
+    "category": "management",
+    "aliases": [
+      "billing",
+      "costs",
+      "cost management",
+      "budgets",
+      "spend"
+    ],
+    "skills": [
+      "review costs",
+      "manage billing",
+      "budgets and alerts"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-sql",
+    "name": "Cloud SQL",
+    "url": "https://console.cloud.google.com/sql/instances",
+    "doc": "https://cloud.google.com/sql/docs",
+    "category": "databases",
+    "aliases": [
+      "cloud sql",
+      "sql",
+      "database",
+      "databases",
+      "mysql postgres sqlserver"
+    ],
+    "skills": [
+      "create instance",
+      "manage cloud sql",
+      "connect to database"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "bigquery",
+    "name": "BigQuery",
+    "url": "https://console.cloud.google.com/bigquery",
+    "doc": "https://cloud.google.com/bigquery/docs",
+    "category": "databases",
+    "aliases": [
+      "bigquery",
+      "data warehouse",
+      "analytics",
+      "big query"
+    ],
+    "skills": [
+      "run query",
+      "manage datasets",
+      "analyze data"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "firestore",
+    "name": "Firestore",
+    "url": "https://console.cloud.google.com/firestore",
+    "doc": "https://cloud.google.com/firestore/docs",
+    "category": "databases",
+    "aliases": [
+      "firestore",
+      "nosql",
+      "document database"
+    ],
+    "skills": [
+      "manage firestore data"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "spanner",
+    "name": "Cloud Spanner",
+    "url": "https://console.cloud.google.com/spanner",
+    "doc": "https://cloud.google.com/spanner/docs",
+    "category": "databases",
+    "aliases": [
+      "spanner",
+      "cloud spanner",
+      "distributed sql"
+    ],
+    "skills": [
+      "manage spanner instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "pubsub",
+    "name": "Pub/Sub",
+    "url": "https://console.cloud.google.com/cloudpubsub",
+    "doc": "https://cloud.google.com/pubsub/docs",
+    "category": "integration",
+    "aliases": [
+      "pubsub",
+      "pub sub",
+      "messaging",
+      "topics",
+      "subscriptions"
+    ],
+    "skills": [
+      "create topic",
+      "publish message"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-build",
+    "name": "Cloud Build",
+    "url": "https://console.cloud.google.com/cloud-build",
+    "doc": "https://cloud.google.com/build/docs",
+    "category": "devops",
+    "aliases": [
+      "cloud build",
+      "ci cd",
+      "build"
+    ],
+    "skills": [
+      "run build",
+      "manage triggers"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "artifact-registry",
+    "name": "Artifact Registry",
+    "url": "https://console.cloud.google.com/artifacts",
+    "doc": "https://cloud.google.com/artifact-registry/docs",
+    "category": "devops",
+    "aliases": [
+      "artifact registry",
+      "container registry",
+      "registry",
+      "images"
+    ],
+    "skills": [
+      "manage repositories",
+      "push image"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-shell",
+    "name": "Cloud Shell",
+    "url": "https://console.cloud.google.com/?cloudshell=true",
+    "doc": "https://cloud.google.com/shell/docs",
+    "category": "management",
+    "aliases": [
+      "cloud shell",
+      "gcloud shell",
+      "shell"
+    ],
+    "skills": [
+      "open cloud shell",
+      "run gcloud"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "resource-manager",
+    "name": "Resource Manager",
+    "url": "https://console.cloud.google.com/cloud-resource-manager",
+    "doc": "https://cloud.google.com/resource-manager/docs",
+    "category": "management",
+    "aliases": [
+      "resource manager",
+      "projects",
+      "folders",
+      "organization"
+    ],
+    "skills": [
+      "manage projects",
+      "view hierarchy"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "marketplace",
+    "name": "Google Cloud Marketplace",
+    "url": "https://console.cloud.google.com/marketplace",
+    "doc": "https://cloud.google.com/marketplace/docs",
+    "category": "management",
+    "aliases": [
+      "marketplace",
+      "cloud marketplace"
+    ],
+    "skills": [
+      "browse marketplace solutions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "event-hubs",
+    "name": "Azure Event Hubs",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.EventHub%2Fnamespaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/event-hubs/",
+    "category": "integration",
+    "aliases": [
+      "event hubs",
+      "event hub",
+      "streaming ingestion"
+    ],
+    "skills": [
+      "manage event hub namespace",
+      "ingest events"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "service-bus",
+    "name": "Azure Service Bus",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ServiceBus%2Fnamespaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/",
+    "category": "integration",
+    "aliases": [
+      "service bus",
+      "messaging queues topics",
+      "sb"
+    ],
+    "skills": [
+      "manage queues and topics",
+      "send messages"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "event-grid",
+    "name": "Azure Event Grid",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.EventGrid%2Ftopics",
+    "doc": "https://learn.microsoft.com/en-us/azure/event-grid/",
+    "category": "integration",
+    "aliases": [
+      "event grid",
+      "events",
+      "pub sub events"
+    ],
+    "skills": [
+      "manage event subscriptions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "logic-apps",
+    "name": "Azure Logic Apps",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Logic%2Fworkflows",
+    "doc": "https://learn.microsoft.com/en-us/azure/logic-apps/",
+    "category": "integration",
+    "aliases": [
+      "logic apps",
+      "logic app",
+      "workflows"
+    ],
+    "skills": [
+      "create workflow",
+      "manage logic app"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "api-management",
+    "name": "Azure API Management",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.ApiManagement%2Fservice",
+    "doc": "https://learn.microsoft.com/en-us/azure/api-management/",
+    "category": "integration",
+    "aliases": [
+      "api management",
+      "apim",
+      "api gateway"
+    ],
+    "skills": [
+      "publish api",
+      "manage apim"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "data-factory",
+    "name": "Azure Data Factory",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DataFactory%2FdataFactories",
+    "doc": "https://learn.microsoft.com/en-us/azure/data-factory/",
+    "category": "analytics",
+    "aliases": [
+      "data factory",
+      "adf",
+      "etl pipelines"
+    ],
+    "skills": [
+      "manage pipelines",
+      "data integration"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "synapse",
+    "name": "Azure Synapse Analytics",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Synapse%2Fworkspaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/synapse-analytics/",
+    "category": "analytics",
+    "aliases": [
+      "synapse",
+      "synapse analytics",
+      "data warehouse analytics"
+    ],
+    "skills": [
+      "manage synapse workspace",
+      "run analytics"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "databricks",
+    "name": "Azure Databricks",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Databricks%2Fworkspaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/databricks/",
+    "category": "analytics",
+    "aliases": [
+      "databricks",
+      "spark",
+      "azure databricks"
+    ],
+    "skills": [
+      "manage databricks workspace"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "redis",
+    "name": "Azure Cache for Redis",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FRedis",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/",
+    "category": "databases",
+    "aliases": [
+      "redis",
+      "cache for redis",
+      "azure redis",
+      "cache"
+    ],
+    "skills": [
+      "manage redis cache"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "managed-redis",
+    "name": "Azure Managed Redis",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Cache%2FredisEnterprise",
+    "doc": "https://learn.microsoft.com/en-us/azure/redis/",
+    "category": "databases",
+    "aliases": [
+      "managed redis",
+      "redis enterprise"
+    ],
+    "skills": [
+      "manage managed redis"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "sql-managed-instance",
+    "name": "Azure SQL Managed Instance",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2FmanagedInstances",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/",
+    "category": "databases",
+    "aliases": [
+      "sql managed instance",
+      "managed instance",
+      "mi sql"
+    ],
+    "skills": [
+      "manage sql managed instance"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "sentinel",
+    "name": "Microsoft Sentinel",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.securityinsightsarg%2Fsentinel",
+    "doc": "https://learn.microsoft.com/en-us/azure/sentinel/",
+    "category": "security",
+    "aliases": [
+      "sentinel",
+      "microsoft sentinel",
+      "siem",
+      "security analytics"
+    ],
+    "skills": [
+      "review incidents",
+      "siem investigation"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "ddos-protection",
+    "name": "Azure DDoS Protection",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FddosProtectionPlans",
+    "doc": "https://learn.microsoft.com/en-us/azure/ddos-protection/",
+    "category": "security",
+    "aliases": [
+      "ddos",
+      "ddos protection"
+    ],
+    "skills": [
+      "manage ddos plan"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "bastion",
+    "name": "Azure Bastion",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FbastionHosts",
+    "doc": "https://learn.microsoft.com/en-us/azure/bastion/",
+    "category": "networking",
+    "aliases": [
+      "bastion",
+      "azure bastion",
+      "secure rdp ssh"
+    ],
+    "skills": [
+      "connect via bastion",
+      "manage bastion host"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "nat-gateway",
+    "name": "Azure NAT Gateway",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FnatGateways",
+    "doc": "https://learn.microsoft.com/en-us/azure/nat-gateway/",
+    "category": "networking",
+    "aliases": [
+      "nat gateway",
+      "nat"
+    ],
+    "skills": [
+      "manage nat gateway",
+      "outbound connectivity"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "private-link",
+    "name": "Azure Private Link",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Network/PrivateLinkCenterBlade/~/privateendpoints",
+    "doc": "https://learn.microsoft.com/en-us/azure/private-link/",
+    "category": "networking",
+    "aliases": [
+      "private link",
+      "private endpoint",
+      "private endpoints"
+    ],
+    "skills": [
+      "create private endpoint"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "network-watcher",
+    "name": "Network Watcher",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Network/NetworkWatcherMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/network-watcher/",
+    "category": "networking",
+    "aliases": [
+      "network watcher",
+      "network diagnostics"
+    ],
+    "skills": [
+      "diagnose network",
+      "connection monitor"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "site-recovery",
+    "name": "Azure Site Recovery",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.RecoveryServices%2Fvaults",
+    "doc": "https://learn.microsoft.com/en-us/azure/site-recovery/",
+    "category": "management",
+    "aliases": [
+      "site recovery",
+      "disaster recovery",
+      "asr",
+      "dr"
+    ],
+    "skills": [
+      "configure replication",
+      "failover"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "automation",
+    "name": "Azure Automation",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts",
+    "doc": "https://learn.microsoft.com/en-us/azure/automation/",
+    "category": "management",
+    "aliases": [
+      "automation",
+      "runbooks",
+      "automation account"
+    ],
+    "skills": [
+      "manage runbooks",
+      "automate tasks"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "log-analytics",
+    "name": "Log Analytics workspaces",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.OperationalInsights%2Fworkspaces",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview",
+    "category": "monitoring",
+    "aliases": [
+      "log analytics",
+      "logs workspace",
+      "workspace logs"
+    ],
+    "skills": [
+      "query logs",
+      "manage workspace"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "app-insights",
+    "name": "Application Insights",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.insights%2Fcomponents",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+    "category": "monitoring",
+    "aliases": [
+      "application insights",
+      "app insights",
+      "apm"
+    ],
+    "skills": [
+      "view application performance",
+      "traces and failures"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "container-apps",
+    "name": "Azure Container Apps",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.App%2FcontainerApps",
+    "doc": "https://learn.microsoft.com/en-us/azure/container-apps/",
+    "category": "containers",
+    "aliases": [
+      "container apps",
+      "aca",
+      "serverless containers"
+    ],
+    "skills": [
+      "deploy container app",
+      "manage revisions"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "virtual-desktop",
+    "name": "Azure Virtual Desktop",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_WVD/WvdManagerMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/virtual-desktop/",
+    "category": "compute",
+    "aliases": [
+      "virtual desktop",
+      "avd",
+      "windows virtual desktop",
+      "wvd"
+    ],
+    "skills": [
+      "manage host pools",
+      "virtual desktops"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "migrate",
+    "name": "Azure Migrate",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_Migrate/AmhManageMigrateProjects.ReactView",
+    "doc": "https://learn.microsoft.com/en-us/azure/migrate/",
+    "category": "management",
+    "aliases": [
+      "azure migrate",
+      "migration",
+      "migrate servers"
+    ],
+    "skills": [
+      "assess migration",
+      "migrate workloads"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "arc",
+    "name": "Azure Arc",
+    "url": "https://portal.azure.com/#view/Microsoft_Azure_ArcCenterUX/ArcCenterMenuBlade/~/overview",
+    "doc": "https://learn.microsoft.com/en-us/azure/azure-arc/",
+    "category": "hybrid",
+    "aliases": [
+      "azure arc",
+      "arc",
+      "hybrid servers",
+      "hybrid kubernetes"
+    ],
+    "skills": [
+      "manage hybrid resources",
+      "onboard servers"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "expressroute",
+    "name": "Azure ExpressRoute",
+    "url": "https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FexpressRouteCircuits",
+    "doc": "https://learn.microsoft.com/en-us/azure/expressroute/",
+    "category": "networking",
+    "aliases": [
+      "expressroute",
+      "express route",
+      "private connectivity"
+    ],
+    "skills": [
+      "manage expressroute circuit"
+    ]
+  },
+  {
+    "cloud": "azure",
+    "key": "purview",
+    "name": "Microsoft Purview",
+    "url": "https://purview.microsoft.com/",
+    "doc": "https://learn.microsoft.com/en-us/purview/",
+    "category": "governance",
+    "aliases": [
+      "purview",
+      "microsoft purview",
+      "data governance",
+      "compliance governance"
+    ],
+    "skills": [
+      "data catalog",
+      "governance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "config",
+    "name": "AWS Config",
+    "url": "https://console.aws.amazon.com/config/",
+    "doc": "https://docs.aws.amazon.com/config/",
+    "category": "management",
+    "aliases": [
+      "aws config",
+      "config rules",
+      "resource compliance"
+    ],
+    "skills": [
+      "evaluate compliance",
+      "track configuration"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "trusted-advisor",
+    "name": "AWS Trusted Advisor",
+    "url": "https://console.aws.amazon.com/trustedadvisor/",
+    "doc": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+    "category": "management",
+    "aliases": [
+      "trusted advisor",
+      "recommendations",
+      "best practices"
+    ],
+    "skills": [
+      "review recommendations",
+      "optimize aws"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "security-hub",
+    "name": "AWS Security Hub",
+    "url": "https://console.aws.amazon.com/securityhub/",
+    "doc": "https://docs.aws.amazon.com/securityhub/",
+    "category": "security",
+    "aliases": [
+      "security hub",
+      "security findings",
+      "central security"
+    ],
+    "skills": [
+      "review security findings",
+      "compliance standards"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "inspector",
+    "name": "Amazon Inspector",
+    "url": "https://console.aws.amazon.com/inspector/",
+    "doc": "https://docs.aws.amazon.com/inspector/",
+    "category": "security",
+    "aliases": [
+      "inspector",
+      "vulnerability scanning",
+      "amazon inspector"
+    ],
+    "skills": [
+      "scan vulnerabilities"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "macie",
+    "name": "Amazon Macie",
+    "url": "https://console.aws.amazon.com/macie/",
+    "doc": "https://docs.aws.amazon.com/macie/",
+    "category": "security",
+    "aliases": [
+      "macie",
+      "sensitive data discovery"
+    ],
+    "skills": [
+      "discover sensitive data"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "shield",
+    "name": "AWS Shield",
+    "url": "https://console.aws.amazon.com/wafv2/shieldv2",
+    "doc": "https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html",
+    "category": "security",
+    "aliases": [
+      "shield",
+      "ddos",
+      "aws shield"
+    ],
+    "skills": [
+      "ddos protection"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "certificate-manager",
+    "name": "AWS Certificate Manager",
+    "url": "https://console.aws.amazon.com/acm/",
+    "doc": "https://docs.aws.amazon.com/acm/",
+    "category": "security",
+    "aliases": [
+      "acm",
+      "certificate manager",
+      "ssl tls certificates"
+    ],
+    "skills": [
+      "request certificate",
+      "manage certificates"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cognito",
+    "name": "Amazon Cognito",
+    "url": "https://console.aws.amazon.com/cognito/",
+    "doc": "https://docs.aws.amazon.com/cognito/",
+    "category": "identity",
+    "aliases": [
+      "cognito",
+      "user pools",
+      "authentication"
+    ],
+    "skills": [
+      "manage user pool",
+      "app authentication"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "directory-service",
+    "name": "AWS Directory Service",
+    "url": "https://console.aws.amazon.com/directoryservicev2/",
+    "doc": "https://docs.aws.amazon.com/directoryservice/",
+    "category": "identity",
+    "aliases": [
+      "directory service",
+      "managed ad",
+      "active directory"
+    ],
+    "skills": [
+      "manage directory"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "direct-connect",
+    "name": "AWS Direct Connect",
+    "url": "https://console.aws.amazon.com/directconnect/",
+    "doc": "https://docs.aws.amazon.com/directconnect/",
+    "category": "networking",
+    "aliases": [
+      "direct connect",
+      "dx",
+      "dedicated connection"
+    ],
+    "skills": [
+      "manage direct connect"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "global-accelerator",
+    "name": "AWS Global Accelerator",
+    "url": "https://console.aws.amazon.com/globalaccelerator/",
+    "doc": "https://docs.aws.amazon.com/global-accelerator/",
+    "category": "networking",
+    "aliases": [
+      "global accelerator",
+      "accelerator"
+    ],
+    "skills": [
+      "improve global performance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "transit-gateway",
+    "name": "AWS Transit Gateway",
+    "url": "https://console.aws.amazon.com/vpc/home#TransitGateways:",
+    "doc": "https://docs.aws.amazon.com/vpc/latest/tgw/",
+    "category": "networking",
+    "aliases": [
+      "transit gateway",
+      "tgw",
+      "network hub"
+    ],
+    "skills": [
+      "connect vpcs",
+      "manage transit gateway"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "elastic-beanstalk",
+    "name": "AWS Elastic Beanstalk",
+    "url": "https://console.aws.amazon.com/elasticbeanstalk/",
+    "doc": "https://docs.aws.amazon.com/elasticbeanstalk/",
+    "category": "compute",
+    "aliases": [
+      "elastic beanstalk",
+      "beanstalk",
+      "paas"
+    ],
+    "skills": [
+      "deploy application",
+      "manage environment"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "batch",
+    "name": "AWS Batch",
+    "url": "https://console.aws.amazon.com/batch/",
+    "doc": "https://docs.aws.amazon.com/batch/",
+    "category": "compute",
+    "aliases": [
+      "aws batch",
+      "batch jobs"
+    ],
+    "skills": [
+      "run batch jobs"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "fargate",
+    "name": "AWS Fargate",
+    "url": "https://console.aws.amazon.com/ecs/home#/clusters",
+    "doc": "https://docs.aws.amazon.com/fargate/",
+    "category": "containers",
+    "aliases": [
+      "fargate",
+      "serverless containers"
+    ],
+    "skills": [
+      "run containers on fargate"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "glue",
+    "name": "AWS Glue",
+    "url": "https://console.aws.amazon.com/glue/",
+    "doc": "https://docs.aws.amazon.com/glue/",
+    "category": "analytics",
+    "aliases": [
+      "glue",
+      "aws glue",
+      "etl",
+      "data catalog"
+    ],
+    "skills": [
+      "run etl jobs",
+      "manage data catalog"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "athena",
+    "name": "Amazon Athena",
+    "url": "https://console.aws.amazon.com/athena/",
+    "doc": "https://docs.aws.amazon.com/athena/",
+    "category": "analytics",
+    "aliases": [
+      "athena",
+      "query s3",
+      "serverless sql"
+    ],
+    "skills": [
+      "run sql query on s3"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "redshift",
+    "name": "Amazon Redshift",
+    "url": "https://console.aws.amazon.com/redshiftv2/",
+    "doc": "https://docs.aws.amazon.com/redshift/",
+    "category": "analytics",
+    "aliases": [
+      "redshift",
+      "data warehouse"
+    ],
+    "skills": [
+      "manage redshift cluster",
+      "run analytics queries"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "kinesis",
+    "name": "Amazon Kinesis",
+    "url": "https://console.aws.amazon.com/kinesis/",
+    "doc": "https://docs.aws.amazon.com/kinesis/",
+    "category": "analytics",
+    "aliases": [
+      "kinesis",
+      "streaming data",
+      "data streams"
+    ],
+    "skills": [
+      "manage streams",
+      "stream processing"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "opensearch",
+    "name": "Amazon OpenSearch Service",
+    "url": "https://console.aws.amazon.com/aos/home",
+    "doc": "https://docs.aws.amazon.com/opensearch-service/",
+    "category": "analytics",
+    "aliases": [
+      "opensearch",
+      "elasticsearch",
+      "search service"
+    ],
+    "skills": [
+      "manage opensearch domain"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "step-functions",
+    "name": "AWS Step Functions",
+    "url": "https://console.aws.amazon.com/states/",
+    "doc": "https://docs.aws.amazon.com/step-functions/",
+    "category": "integration",
+    "aliases": [
+      "step functions",
+      "state machine",
+      "workflows"
+    ],
+    "skills": [
+      "manage state machines"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "eventbridge",
+    "name": "Amazon EventBridge",
+    "url": "https://console.aws.amazon.com/events/",
+    "doc": "https://docs.aws.amazon.com/eventbridge/",
+    "category": "integration",
+    "aliases": [
+      "eventbridge",
+      "event bridge",
+      "events bus"
+    ],
+    "skills": [
+      "manage event rules"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "xray",
+    "name": "AWS X-Ray",
+    "url": "https://console.aws.amazon.com/xray/",
+    "doc": "https://docs.aws.amazon.com/xray/",
+    "category": "monitoring",
+    "aliases": [
+      "x-ray",
+      "xray",
+      "tracing"
+    ],
+    "skills": [
+      "view traces",
+      "debug distributed apps"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "codepipeline",
+    "name": "AWS CodePipeline",
+    "url": "https://console.aws.amazon.com/codesuite/codepipeline/pipelines",
+    "doc": "https://docs.aws.amazon.com/codepipeline/",
+    "category": "devops",
+    "aliases": [
+      "codepipeline",
+      "ci cd pipeline"
+    ],
+    "skills": [
+      "manage pipeline"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "codebuild",
+    "name": "AWS CodeBuild",
+    "url": "https://console.aws.amazon.com/codesuite/codebuild/projects",
+    "doc": "https://docs.aws.amazon.com/codebuild/",
+    "category": "devops",
+    "aliases": [
+      "codebuild",
+      "build projects"
+    ],
+    "skills": [
+      "run build"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ecr-public",
+    "name": "Amazon ECR Public",
+    "url": "https://gallery.ecr.aws/",
+    "doc": "https://docs.aws.amazon.com/AmazonECR/latest/public/",
+    "category": "containers",
+    "aliases": [
+      "ecr public",
+      "public container gallery"
+    ],
+    "skills": [
+      "browse public images"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "service-catalog",
+    "name": "AWS Service Catalog",
+    "url": "https://console.aws.amazon.com/servicecatalog/",
+    "doc": "https://docs.aws.amazon.com/servicecatalog/",
+    "category": "management",
+    "aliases": [
+      "service catalog",
+      "approved products"
+    ],
+    "skills": [
+      "manage portfolios"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "control-tower",
+    "name": "AWS Control Tower",
+    "url": "https://console.aws.amazon.com/controltower/",
+    "doc": "https://docs.aws.amazon.com/controltower/",
+    "category": "management",
+    "aliases": [
+      "control tower",
+      "landing zone",
+      "multi account governance"
+    ],
+    "skills": [
+      "manage landing zone"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "alloydb",
+    "name": "AlloyDB for PostgreSQL",
+    "url": "https://console.cloud.google.com/alloydb",
+    "doc": "https://cloud.google.com/alloydb/docs",
+    "category": "databases",
+    "aliases": [
+      "alloydb",
+      "alloy db",
+      "postgresql alloydb"
+    ],
+    "skills": [
+      "manage alloydb cluster"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "memorystore",
+    "name": "Memorystore",
+    "url": "https://console.cloud.google.com/memorystore",
+    "doc": "https://cloud.google.com/memorystore/docs",
+    "category": "databases",
+    "aliases": [
+      "memorystore",
+      "redis memorystore",
+      "cache"
+    ],
+    "skills": [
+      "manage redis instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "bigtable",
+    "name": "Cloud Bigtable",
+    "url": "https://console.cloud.google.com/bigtable",
+    "doc": "https://cloud.google.com/bigtable/docs",
+    "category": "databases",
+    "aliases": [
+      "bigtable",
+      "cloud bigtable",
+      "wide column nosql"
+    ],
+    "skills": [
+      "manage bigtable instance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "dataflow",
+    "name": "Dataflow",
+    "url": "https://console.cloud.google.com/dataflow",
+    "doc": "https://cloud.google.com/dataflow/docs",
+    "category": "analytics",
+    "aliases": [
+      "dataflow",
+      "streaming batch pipelines"
+    ],
+    "skills": [
+      "manage dataflow jobs"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "dataproc",
+    "name": "Dataproc",
+    "url": "https://console.cloud.google.com/dataproc",
+    "doc": "https://cloud.google.com/dataproc/docs",
+    "category": "analytics",
+    "aliases": [
+      "dataproc",
+      "spark hadoop managed"
+    ],
+    "skills": [
+      "manage dataproc clusters"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "composer",
+    "name": "Cloud Composer",
+    "url": "https://console.cloud.google.com/composer",
+    "doc": "https://cloud.google.com/composer/docs",
+    "category": "analytics",
+    "aliases": [
+      "cloud composer",
+      "airflow",
+      "composer"
+    ],
+    "skills": [
+      "manage airflow environment"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "looker",
+    "name": "Looker",
+    "url": "https://console.cloud.google.com/looker",
+    "doc": "https://cloud.google.com/looker/docs",
+    "category": "analytics",
+    "aliases": [
+      "looker",
+      "bi",
+      "business intelligence"
+    ],
+    "skills": [
+      "open looker"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "vertex-ai",
+    "name": "Vertex AI",
+    "url": "https://console.cloud.google.com/vertex-ai",
+    "doc": "https://cloud.google.com/vertex-ai/docs",
+    "category": "ai",
+    "aliases": [
+      "vertex ai",
+      "vertex",
+      "ml platform"
+    ],
+    "skills": [
+      "manage vertex ai resources"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-nat",
+    "name": "Cloud NAT",
+    "url": "https://console.cloud.google.com/net-services/nat/list",
+    "doc": "https://cloud.google.com/nat/docs",
+    "category": "networking",
+    "aliases": [
+      "cloud nat",
+      "nat"
+    ],
+    "skills": [
+      "manage nat gateways"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-vpn",
+    "name": "Cloud VPN",
+    "url": "https://console.cloud.google.com/hybrid/vpn/list",
+    "doc": "https://cloud.google.com/network-connectivity/docs/vpn",
+    "category": "networking",
+    "aliases": [
+      "cloud vpn",
+      "vpn"
+    ],
+    "skills": [
+      "manage vpn tunnels"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "interconnect",
+    "name": "Cloud Interconnect",
+    "url": "https://console.cloud.google.com/hybrid/interconnects/list",
+    "doc": "https://cloud.google.com/network-connectivity/docs/interconnect",
+    "category": "networking",
+    "aliases": [
+      "interconnect",
+      "cloud interconnect",
+      "dedicated interconnect"
+    ],
+    "skills": [
+      "manage interconnect"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "network-intelligence",
+    "name": "Network Intelligence Center",
+    "url": "https://console.cloud.google.com/net-intelligence",
+    "doc": "https://cloud.google.com/network-intelligence-center/docs",
+    "category": "networking",
+    "aliases": [
+      "network intelligence",
+      "network topology",
+      "connectivity tests"
+    ],
+    "skills": [
+      "diagnose network"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "iap",
+    "name": "Identity-Aware Proxy",
+    "url": "https://console.cloud.google.com/security/iap",
+    "doc": "https://cloud.google.com/iap/docs",
+    "category": "security",
+    "aliases": [
+      "iap",
+      "identity aware proxy",
+      "zero trust access"
+    ],
+    "skills": [
+      "configure iap access"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "certificate-manager",
+    "name": "Certificate Manager",
+    "url": "https://console.cloud.google.com/security/ccm/list/lbCertificates",
+    "doc": "https://cloud.google.com/certificate-manager/docs",
+    "category": "security",
+    "aliases": [
+      "certificate manager",
+      "ssl certificates",
+      "tls certificates"
+    ],
+    "skills": [
+      "manage certificates"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "cloud-ids",
+    "name": "Cloud IDS",
+    "url": "https://console.cloud.google.com/net-security/ids/list",
+    "doc": "https://cloud.google.com/intrusion-detection-system/docs",
+    "category": "security",
+    "aliases": [
+      "cloud ids",
+      "intrusion detection"
+    ],
+    "skills": [
+      "manage ids endpoints"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "org-policy",
+    "name": "Organization Policy",
+    "url": "https://console.cloud.google.com/iam-admin/orgpolicies/list",
+    "doc": "https://cloud.google.com/resource-manager/docs/organization-policy/overview",
+    "category": "governance",
+    "aliases": [
+      "organization policy",
+      "org policy",
+      "constraints"
+    ],
+    "skills": [
+      "manage org policies"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "asset-inventory",
+    "name": "Cloud Asset Inventory",
+    "url": "https://console.cloud.google.com/iam-admin/asset-inventory",
+    "doc": "https://cloud.google.com/asset-inventory/docs",
+    "category": "governance",
+    "aliases": [
+      "asset inventory",
+      "cloud assets"
+    ],
+    "skills": [
+      "search assets",
+      "view inventory"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "error-reporting",
+    "name": "Error Reporting",
+    "url": "https://console.cloud.google.com/errors",
+    "doc": "https://cloud.google.com/error-reporting/docs",
+    "category": "monitoring",
+    "aliases": [
+      "error reporting",
+      "errors"
+    ],
+    "skills": [
+      "view application errors"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "trace",
+    "name": "Cloud Trace",
+    "url": "https://console.cloud.google.com/traces",
+    "doc": "https://cloud.google.com/trace/docs",
+    "category": "monitoring",
+    "aliases": [
+      "cloud trace",
+      "trace",
+      "distributed tracing"
+    ],
+    "skills": [
+      "view traces"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "profiler",
+    "name": "Cloud Profiler",
+    "url": "https://console.cloud.google.com/profiler",
+    "doc": "https://cloud.google.com/profiler/docs",
+    "category": "monitoring",
+    "aliases": [
+      "cloud profiler",
+      "profiler"
+    ],
+    "skills": [
+      "profile performance"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "deploy",
+    "name": "Cloud Deploy",
+    "url": "https://console.cloud.google.com/deploy",
+    "doc": "https://cloud.google.com/deploy/docs",
+    "category": "devops",
+    "aliases": [
+      "cloud deploy",
+      "continuous delivery"
+    ],
+    "skills": [
+      "manage delivery pipelines"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "scheduler",
+    "name": "Cloud Scheduler",
+    "url": "https://console.cloud.google.com/cloudscheduler",
+    "doc": "https://cloud.google.com/scheduler/docs",
+    "category": "management",
+    "aliases": [
+      "cloud scheduler",
+      "cron jobs",
+      "scheduler"
+    ],
+    "skills": [
+      "manage scheduled jobs"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "tasks",
+    "name": "Cloud Tasks",
+    "url": "https://console.cloud.google.com/cloudtasks",
+    "doc": "https://cloud.google.com/tasks/docs",
+    "category": "integration",
+    "aliases": [
+      "cloud tasks",
+      "task queues"
+    ],
+    "skills": [
+      "manage task queues"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "workflows",
+    "name": "Workflows",
+    "url": "https://console.cloud.google.com/workflows",
+    "doc": "https://cloud.google.com/workflows/docs",
+    "category": "integration",
+    "aliases": [
+      "workflows",
+      "workflow orchestration"
+    ],
+    "skills": [
+      "manage workflows"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "api-gateway",
+    "name": "API Gateway",
+    "url": "https://console.cloud.google.com/api-gateway",
+    "doc": "https://cloud.google.com/api-gateway/docs",
+    "category": "integration",
+    "aliases": [
+      "api gateway",
+      "gcp api gateway"
+    ],
+    "skills": [
+      "manage apis"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "apigee",
+    "name": "Apigee",
+    "url": "https://console.cloud.google.com/apigee",
+    "doc": "https://cloud.google.com/apigee/docs",
+    "category": "integration",
+    "aliases": [
+      "apigee",
+      "api management"
+    ],
+    "skills": [
+      "manage apigee apis"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "endpoints",
+    "name": "Cloud Endpoints",
+    "url": "https://console.cloud.google.com/endpoints",
+    "doc": "https://cloud.google.com/endpoints/docs",
+    "category": "integration",
+    "aliases": [
+      "cloud endpoints",
+      "api endpoints"
+    ],
+    "skills": [
+      "manage api endpoints"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "backup-dr",
+    "name": "Backup and DR Service",
+    "url": "https://console.cloud.google.com/backupdr",
+    "doc": "https://cloud.google.com/backup-disaster-recovery/docs",
+    "category": "management",
+    "aliases": [
+      "backup and dr",
+      "backup dr",
+      "disaster recovery"
+    ],
+    "skills": [
+      "manage backups",
+      "disaster recovery"
+    ]
+  },
+  {
+    "cloud": "gcp",
+    "key": "transfer-service",
+    "name": "Storage Transfer Service",
+    "url": "https://console.cloud.google.com/transfer",
+    "doc": "https://cloud.google.com/storage-transfer/docs",
+    "category": "management",
+    "aliases": [
+      "storage transfer service",
+      "data transfer"
+    ],
+    "skills": [
+      "transfer data"
+    ]
+  }
+]

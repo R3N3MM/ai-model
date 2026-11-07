@@ -1,0 +1,1084 @@
+[
+  {
+    "cloud": "aws",
+    "key": "home",
+    "name": "AWS Management Console",
+    "url": "https://console.aws.amazon.com/",
+    "doc": "https://docs.aws.amazon.com/",
+    "category": "portal",
+    "aliases": [
+      "aws",
+      "amazon web services",
+      "aws console",
+      "amazon aws"
+    ],
+    "skills": [
+      "open console",
+      "aws dashboard",
+      "sign in to aws"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ec2",
+    "name": "Amazon EC2",
+    "url": "https://console.aws.amazon.com/ec2/",
+    "doc": "https://docs.aws.amazon.com/ec2/",
+    "category": "compute",
+    "aliases": [
+      "ec2",
+      "elastic compute cloud",
+      "virtual machines",
+      "vms",
+      "vm",
+      "instances",
+      "compute",
+      "servers"
+    ],
+    "skills": [
+      "launch instance",
+      "manage ec2",
+      "start stop instance",
+      "ssh to instance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "lambda",
+    "name": "AWS Lambda",
+    "url": "https://console.aws.amazon.com/lambda/",
+    "doc": "https://docs.aws.amazon.com/lambda/",
+    "category": "compute",
+    "aliases": [
+      "lambda",
+      "serverless",
+      "functions",
+      "aws lambda"
+    ],
+    "skills": [
+      "create function",
+      "deploy lambda",
+      "invoke function"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ecs",
+    "name": "Amazon ECS",
+    "url": "https://console.aws.amazon.com/ecs/",
+    "doc": "https://docs.aws.amazon.com/ecs/",
+    "category": "containers",
+    "aliases": [
+      "ecs",
+      "elastic container service",
+      "containers"
+    ],
+    "skills": [
+      "manage ecs cluster",
+      "deploy container service"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "eks",
+    "name": "Amazon EKS",
+    "url": "https://console.aws.amazon.com/eks/",
+    "doc": "https://docs.aws.amazon.com/eks/",
+    "category": "containers",
+    "aliases": [
+      "eks",
+      "kubernetes",
+      "k8s",
+      "elastic kubernetes service"
+    ],
+    "skills": [
+      "manage eks cluster",
+      "deploy to kubernetes"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ecr",
+    "name": "Amazon ECR",
+    "url": "https://console.aws.amazon.com/ecr/",
+    "doc": "https://docs.aws.amazon.com/ecr/",
+    "category": "containers",
+    "aliases": [
+      "ecr",
+      "container registry",
+      "elastic container registry",
+      "registry"
+    ],
+    "skills": [
+      "push image",
+      "manage repositories"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "lightsail",
+    "name": "Amazon Lightsail",
+    "url": "https://lightsail.aws.amazon.com/",
+    "doc": "https://docs.aws.amazon.com/lightsail/",
+    "category": "compute",
+    "aliases": [
+      "lightsail",
+      "vps"
+    ],
+    "skills": [
+      "manage lightsail instance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "s3",
+    "name": "Amazon S3",
+    "url": "https://console.aws.amazon.com/s3/",
+    "doc": "https://docs.aws.amazon.com/s3/",
+    "category": "storage",
+    "aliases": [
+      "s3",
+      "simple storage service",
+      "storage",
+      "bucket",
+      "buckets",
+      "object storage"
+    ],
+    "skills": [
+      "create bucket",
+      "upload to s3",
+      "manage s3 buckets",
+      "set bucket policy"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ebs",
+    "name": "Amazon EBS",
+    "url": "https://console.aws.amazon.com/ec2/home#Volumes:",
+    "doc": "https://docs.aws.amazon.com/ebs/",
+    "category": "storage",
+    "aliases": [
+      "ebs",
+      "elastic block store",
+      "volumes",
+      "disk",
+      "block storage"
+    ],
+    "skills": [
+      "manage volumes",
+      "attach ebs volume",
+      "snapshot volume"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "efs",
+    "name": "Amazon EFS",
+    "url": "https://console.aws.amazon.com/efs/",
+    "doc": "https://docs.aws.amazon.com/efs/",
+    "category": "storage",
+    "aliases": [
+      "efs",
+      "elastic file system",
+      "file system",
+      "nfs"
+    ],
+    "skills": [
+      "manage file systems",
+      "mount efs"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "vpc",
+    "name": "Amazon VPC",
+    "url": "https://console.aws.amazon.com/vpc/",
+    "doc": "https://docs.aws.amazon.com/vpc/",
+    "category": "networking",
+    "aliases": [
+      "vpc",
+      "virtual private cloud",
+      "network",
+      "subnets",
+      "subnet"
+    ],
+    "skills": [
+      "create vpc",
+      "manage subnets",
+      "configure route table"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "route53",
+    "name": "Amazon Route 53",
+    "url": "https://console.aws.amazon.com/route53/",
+    "doc": "https://docs.aws.amazon.com/route53/",
+    "category": "networking",
+    "aliases": [
+      "route 53",
+      "route53",
+      "dns",
+      "domain"
+    ],
+    "skills": [
+      "manage dns records",
+      "create hosted zone"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "elb",
+    "name": "Elastic Load Balancing",
+    "url": "https://console.aws.amazon.com/ec2/home#LoadBalancers:",
+    "doc": "https://docs.aws.amazon.com/elasticloadbalancing/",
+    "category": "networking",
+    "aliases": [
+      "elb",
+      "load balancer",
+      "load balancers",
+      "alb",
+      "nlb"
+    ],
+    "skills": [
+      "create load balancer",
+      "configure target group"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudfront",
+    "name": "Amazon CloudFront",
+    "url": "https://console.aws.amazon.com/cloudfront/",
+    "doc": "https://docs.aws.amazon.com/cloudfront/",
+    "category": "networking",
+    "aliases": [
+      "cloudfront",
+      "cdn",
+      "distribution"
+    ],
+    "skills": [
+      "create distribution",
+      "manage cdn"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "api-gateway",
+    "name": "Amazon API Gateway",
+    "url": "https://console.aws.amazon.com/apigateway/",
+    "doc": "https://docs.aws.amazon.com/apigateway/",
+    "category": "networking",
+    "aliases": [
+      "api gateway",
+      "apigateway",
+      "api"
+    ],
+    "skills": [
+      "create api",
+      "manage api gateway"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "iam",
+    "name": "AWS IAM",
+    "url": "https://console.aws.amazon.com/iam/",
+    "doc": "https://docs.aws.amazon.com/iam/",
+    "category": "identity",
+    "aliases": [
+      "iam",
+      "identity",
+      "identity and access management",
+      "users",
+      "roles",
+      "policies",
+      "permissions",
+      "access"
+    ],
+    "skills": [
+      "create user",
+      "manage roles",
+      "attach policy",
+      "manage permissions",
+      "mfa"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "organizations",
+    "name": "AWS Organizations",
+    "url": "https://console.aws.amazon.com/organizations/",
+    "doc": "https://docs.aws.amazon.com/organizations/",
+    "category": "identity",
+    "aliases": [
+      "organizations",
+      "orgs",
+      "accounts",
+      "aws organizations"
+    ],
+    "skills": [
+      "manage accounts",
+      "organizational units"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "kms",
+    "name": "AWS KMS",
+    "url": "https://console.aws.amazon.com/kms/",
+    "doc": "https://docs.aws.amazon.com/kms/",
+    "category": "security",
+    "aliases": [
+      "kms",
+      "key management service",
+      "keys",
+      "encryption"
+    ],
+    "skills": [
+      "create key",
+      "manage encryption keys"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "secrets-manager",
+    "name": "AWS Secrets Manager",
+    "url": "https://console.aws.amazon.com/secretsmanager/",
+    "doc": "https://docs.aws.amazon.com/secretsmanager/",
+    "category": "security",
+    "aliases": [
+      "secrets manager",
+      "secrets"
+    ],
+    "skills": [
+      "store secret",
+      "rotate secret"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "guardduty",
+    "name": "Amazon GuardDuty",
+    "url": "https://console.aws.amazon.com/guardduty/",
+    "doc": "https://docs.aws.amazon.com/guardduty/",
+    "category": "security",
+    "aliases": [
+      "guardduty",
+      "threat detection",
+      "security findings"
+    ],
+    "skills": [
+      "review findings",
+      "enable guardduty"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "waf",
+    "name": "AWS WAF",
+    "url": "https://console.aws.amazon.com/wafv2/",
+    "doc": "https://docs.aws.amazon.com/waf/",
+    "category": "security",
+    "aliases": [
+      "waf",
+      "web application firewall"
+    ],
+    "skills": [
+      "create web acl",
+      "manage waf rules"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudwatch",
+    "name": "Amazon CloudWatch",
+    "url": "https://console.aws.amazon.com/cloudwatch/",
+    "doc": "https://docs.aws.amazon.com/cloudwatch/",
+    "category": "monitoring",
+    "aliases": [
+      "cloudwatch",
+      "monitoring",
+      "metrics",
+      "logs",
+      "alarms",
+      "observability"
+    ],
+    "skills": [
+      "view metrics",
+      "check logs",
+      "create alarm",
+      "dashboards"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudtrail",
+    "name": "AWS CloudTrail",
+    "url": "https://console.aws.amazon.com/cloudtrail/",
+    "doc": "https://docs.aws.amazon.com/cloudtrail/",
+    "category": "monitoring",
+    "aliases": [
+      "cloudtrail",
+      "audit",
+      "activity",
+      "trail"
+    ],
+    "skills": [
+      "view audit logs",
+      "track api activity"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "billing",
+    "name": "AWS Billing and Cost Management",
+    "url": "https://console.aws.amazon.com/billing/",
+    "doc": "https://docs.aws.amazon.com/account-billing/",
+    "category": "management",
+    "aliases": [
+      "billing",
+      "cost management",
+      "costs",
+      "budgets",
+      "spend",
+      "cost explorer"
+    ],
+    "skills": [
+      "review bills",
+      "manage costs",
+      "create budget"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudformation",
+    "name": "AWS CloudFormation",
+    "url": "https://console.aws.amazon.com/cloudformation/",
+    "doc": "https://docs.aws.amazon.com/cloudformation/",
+    "category": "management",
+    "aliases": [
+      "cloudformation",
+      "stacks",
+      "infrastructure as code",
+      "iac",
+      "templates"
+    ],
+    "skills": [
+      "deploy stack",
+      "manage templates"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "systems-manager",
+    "name": "AWS Systems Manager",
+    "url": "https://console.aws.amazon.com/systems-manager/",
+    "doc": "https://docs.aws.amazon.com/systems-manager/",
+    "category": "management",
+    "aliases": [
+      "systems manager",
+      "ssm",
+      "patch manager",
+      "parameter store"
+    ],
+    "skills": [
+      "run command",
+      "manage parameters",
+      "patch instances"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "rds",
+    "name": "Amazon RDS",
+    "url": "https://console.aws.amazon.com/rds/",
+    "doc": "https://docs.aws.amazon.com/rds/",
+    "category": "databases",
+    "aliases": [
+      "rds",
+      "relational database service",
+      "database",
+      "databases",
+      "sql"
+    ],
+    "skills": [
+      "create database",
+      "manage rds instance",
+      "take snapshot"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "aurora",
+    "name": "Amazon Aurora",
+    "url": "https://console.aws.amazon.com/rds/home#databases:",
+    "doc": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/",
+    "category": "databases",
+    "aliases": [
+      "aurora",
+      "aurora database"
+    ],
+    "skills": [
+      "manage aurora cluster"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "dynamodb",
+    "name": "Amazon DynamoDB",
+    "url": "https://console.aws.amazon.com/dynamodb/",
+    "doc": "https://docs.aws.amazon.com/dynamodb/",
+    "category": "databases",
+    "aliases": [
+      "dynamodb",
+      "dynamo",
+      "nosql",
+      "dynamo db"
+    ],
+    "skills": [
+      "create table",
+      "query dynamodb",
+      "manage items"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "elasticache",
+    "name": "Amazon ElastiCache",
+    "url": "https://console.aws.amazon.com/elasticache/",
+    "doc": "https://docs.aws.amazon.com/elasticache/",
+    "category": "databases",
+    "aliases": [
+      "elasticache",
+      "redis",
+      "memcached",
+      "cache"
+    ],
+    "skills": [
+      "manage cache cluster"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "sqs",
+    "name": "Amazon SQS",
+    "url": "https://console.aws.amazon.com/sqs/",
+    "doc": "https://docs.aws.amazon.com/sqs/",
+    "category": "integration",
+    "aliases": [
+      "sqs",
+      "simple queue service",
+      "queue",
+      "queues"
+    ],
+    "skills": [
+      "create queue",
+      "send message"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "sns",
+    "name": "Amazon SNS",
+    "url": "https://console.aws.amazon.com/sns/",
+    "doc": "https://docs.aws.amazon.com/sns/",
+    "category": "integration",
+    "aliases": [
+      "sns",
+      "simple notification service",
+      "notifications",
+      "topics"
+    ],
+    "skills": [
+      "create topic",
+      "manage subscriptions"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cloudshell",
+    "name": "AWS CloudShell",
+    "url": "https://console.aws.amazon.com/cloudshell/",
+    "doc": "https://docs.aws.amazon.com/cloudshell/",
+    "category": "management",
+    "aliases": [
+      "cloudshell",
+      "aws cloud shell",
+      "shell"
+    ],
+    "skills": [
+      "open cloudshell",
+      "run aws cli"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "backup",
+    "name": "AWS Backup",
+    "url": "https://console.aws.amazon.com/backup/",
+    "doc": "https://docs.aws.amazon.com/aws-backup/",
+    "category": "management",
+    "aliases": [
+      "aws backup",
+      "backup",
+      "backups"
+    ],
+    "skills": [
+      "create backup plan",
+      "restore"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "config",
+    "name": "AWS Config",
+    "url": "https://console.aws.amazon.com/config/",
+    "doc": "https://docs.aws.amazon.com/config/",
+    "category": "management",
+    "aliases": [
+      "aws config",
+      "config rules",
+      "resource compliance"
+    ],
+    "skills": [
+      "evaluate compliance",
+      "track configuration"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "trusted-advisor",
+    "name": "AWS Trusted Advisor",
+    "url": "https://console.aws.amazon.com/trustedadvisor/",
+    "doc": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+    "category": "management",
+    "aliases": [
+      "trusted advisor",
+      "recommendations",
+      "best practices"
+    ],
+    "skills": [
+      "review recommendations",
+      "optimize aws"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "security-hub",
+    "name": "AWS Security Hub",
+    "url": "https://console.aws.amazon.com/securityhub/",
+    "doc": "https://docs.aws.amazon.com/securityhub/",
+    "category": "security",
+    "aliases": [
+      "security hub",
+      "security findings",
+      "central security"
+    ],
+    "skills": [
+      "review security findings",
+      "compliance standards"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "inspector",
+    "name": "Amazon Inspector",
+    "url": "https://console.aws.amazon.com/inspector/",
+    "doc": "https://docs.aws.amazon.com/inspector/",
+    "category": "security",
+    "aliases": [
+      "inspector",
+      "vulnerability scanning",
+      "amazon inspector"
+    ],
+    "skills": [
+      "scan vulnerabilities"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "macie",
+    "name": "Amazon Macie",
+    "url": "https://console.aws.amazon.com/macie/",
+    "doc": "https://docs.aws.amazon.com/macie/",
+    "category": "security",
+    "aliases": [
+      "macie",
+      "sensitive data discovery"
+    ],
+    "skills": [
+      "discover sensitive data"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "shield",
+    "name": "AWS Shield",
+    "url": "https://console.aws.amazon.com/wafv2/shieldv2",
+    "doc": "https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html",
+    "category": "security",
+    "aliases": [
+      "shield",
+      "ddos",
+      "aws shield"
+    ],
+    "skills": [
+      "ddos protection"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "certificate-manager",
+    "name": "AWS Certificate Manager",
+    "url": "https://console.aws.amazon.com/acm/",
+    "doc": "https://docs.aws.amazon.com/acm/",
+    "category": "security",
+    "aliases": [
+      "acm",
+      "certificate manager",
+      "ssl tls certificates"
+    ],
+    "skills": [
+      "request certificate",
+      "manage certificates"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "cognito",
+    "name": "Amazon Cognito",
+    "url": "https://console.aws.amazon.com/cognito/",
+    "doc": "https://docs.aws.amazon.com/cognito/",
+    "category": "identity",
+    "aliases": [
+      "cognito",
+      "user pools",
+      "authentication"
+    ],
+    "skills": [
+      "manage user pool",
+      "app authentication"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "directory-service",
+    "name": "AWS Directory Service",
+    "url": "https://console.aws.amazon.com/directoryservicev2/",
+    "doc": "https://docs.aws.amazon.com/directoryservice/",
+    "category": "identity",
+    "aliases": [
+      "directory service",
+      "managed ad",
+      "active directory"
+    ],
+    "skills": [
+      "manage directory"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "direct-connect",
+    "name": "AWS Direct Connect",
+    "url": "https://console.aws.amazon.com/directconnect/",
+    "doc": "https://docs.aws.amazon.com/directconnect/",
+    "category": "networking",
+    "aliases": [
+      "direct connect",
+      "dx",
+      "dedicated connection"
+    ],
+    "skills": [
+      "manage direct connect"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "global-accelerator",
+    "name": "AWS Global Accelerator",
+    "url": "https://console.aws.amazon.com/globalaccelerator/",
+    "doc": "https://docs.aws.amazon.com/global-accelerator/",
+    "category": "networking",
+    "aliases": [
+      "global accelerator",
+      "accelerator"
+    ],
+    "skills": [
+      "improve global performance"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "transit-gateway",
+    "name": "AWS Transit Gateway",
+    "url": "https://console.aws.amazon.com/vpc/home#TransitGateways:",
+    "doc": "https://docs.aws.amazon.com/vpc/latest/tgw/",
+    "category": "networking",
+    "aliases": [
+      "transit gateway",
+      "tgw",
+      "network hub"
+    ],
+    "skills": [
+      "connect vpcs",
+      "manage transit gateway"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "elastic-beanstalk",
+    "name": "AWS Elastic Beanstalk",
+    "url": "https://console.aws.amazon.com/elasticbeanstalk/",
+    "doc": "https://docs.aws.amazon.com/elasticbeanstalk/",
+    "category": "compute",
+    "aliases": [
+      "elastic beanstalk",
+      "beanstalk",
+      "paas"
+    ],
+    "skills": [
+      "deploy application",
+      "manage environment"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "batch",
+    "name": "AWS Batch",
+    "url": "https://console.aws.amazon.com/batch/",
+    "doc": "https://docs.aws.amazon.com/batch/",
+    "category": "compute",
+    "aliases": [
+      "aws batch",
+      "batch jobs"
+    ],
+    "skills": [
+      "run batch jobs"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "fargate",
+    "name": "AWS Fargate",
+    "url": "https://console.aws.amazon.com/ecs/home#/clusters",
+    "doc": "https://docs.aws.amazon.com/fargate/",
+    "category": "containers",
+    "aliases": [
+      "fargate",
+      "serverless containers"
+    ],
+    "skills": [
+      "run containers on fargate"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "glue",
+    "name": "AWS Glue",
+    "url": "https://console.aws.amazon.com/glue/",
+    "doc": "https://docs.aws.amazon.com/glue/",
+    "category": "analytics",
+    "aliases": [
+      "glue",
+      "aws glue",
+      "etl",
+      "data catalog"
+    ],
+    "skills": [
+      "run etl jobs",
+      "manage data catalog"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "athena",
+    "name": "Amazon Athena",
+    "url": "https://console.aws.amazon.com/athena/",
+    "doc": "https://docs.aws.amazon.com/athena/",
+    "category": "analytics",
+    "aliases": [
+      "athena",
+      "query s3",
+      "serverless sql"
+    ],
+    "skills": [
+      "run sql query on s3"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "redshift",
+    "name": "Amazon Redshift",
+    "url": "https://console.aws.amazon.com/redshiftv2/",
+    "doc": "https://docs.aws.amazon.com/redshift/",
+    "category": "analytics",
+    "aliases": [
+      "redshift",
+      "data warehouse"
+    ],
+    "skills": [
+      "manage redshift cluster",
+      "run analytics queries"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "kinesis",
+    "name": "Amazon Kinesis",
+    "url": "https://console.aws.amazon.com/kinesis/",
+    "doc": "https://docs.aws.amazon.com/kinesis/",
+    "category": "analytics",
+    "aliases": [
+      "kinesis",
+      "streaming data",
+      "data streams"
+    ],
+    "skills": [
+      "manage streams",
+      "stream processing"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "opensearch",
+    "name": "Amazon OpenSearch Service",
+    "url": "https://console.aws.amazon.com/aos/home",
+    "doc": "https://docs.aws.amazon.com/opensearch-service/",
+    "category": "analytics",
+    "aliases": [
+      "opensearch",
+      "elasticsearch",
+      "search service"
+    ],
+    "skills": [
+      "manage opensearch domain"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "step-functions",
+    "name": "AWS Step Functions",
+    "url": "https://console.aws.amazon.com/states/",
+    "doc": "https://docs.aws.amazon.com/step-functions/",
+    "category": "integration",
+    "aliases": [
+      "step functions",
+      "state machine",
+      "workflows"
+    ],
+    "skills": [
+      "manage state machines"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "eventbridge",
+    "name": "Amazon EventBridge",
+    "url": "https://console.aws.amazon.com/events/",
+    "doc": "https://docs.aws.amazon.com/eventbridge/",
+    "category": "integration",
+    "aliases": [
+      "eventbridge",
+      "event bridge",
+      "events bus"
+    ],
+    "skills": [
+      "manage event rules"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "xray",
+    "name": "AWS X-Ray",
+    "url": "https://console.aws.amazon.com/xray/",
+    "doc": "https://docs.aws.amazon.com/xray/",
+    "category": "monitoring",
+    "aliases": [
+      "x-ray",
+      "xray",
+      "tracing"
+    ],
+    "skills": [
+      "view traces",
+      "debug distributed apps"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "codepipeline",
+    "name": "AWS CodePipeline",
+    "url": "https://console.aws.amazon.com/codesuite/codepipeline/pipelines",
+    "doc": "https://docs.aws.amazon.com/codepipeline/",
+    "category": "devops",
+    "aliases": [
+      "codepipeline",
+      "ci cd pipeline"
+    ],
+    "skills": [
+      "manage pipeline"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "codebuild",
+    "name": "AWS CodeBuild",
+    "url": "https://console.aws.amazon.com/codesuite/codebuild/projects",
+    "doc": "https://docs.aws.amazon.com/codebuild/",
+    "category": "devops",
+    "aliases": [
+      "codebuild",
+      "build projects"
+    ],
+    "skills": [
+      "run build"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "ecr-public",
+    "name": "Amazon ECR Public",
+    "url": "https://gallery.ecr.aws/",
+    "doc": "https://docs.aws.amazon.com/AmazonECR/latest/public/",
+    "category": "containers",
+    "aliases": [
+      "ecr public",
+      "public container gallery"
+    ],
+    "skills": [
+      "browse public images"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "service-catalog",
+    "name": "AWS Service Catalog",
+    "url": "https://console.aws.amazon.com/servicecatalog/",
+    "doc": "https://docs.aws.amazon.com/servicecatalog/",
+    "category": "management",
+    "aliases": [
+      "service catalog",
+      "approved products"
+    ],
+    "skills": [
+      "manage portfolios"
+    ]
+  },
+  {
+    "cloud": "aws",
+    "key": "control-tower",
+    "name": "AWS Control Tower",
+    "url": "https://console.aws.amazon.com/controltower/",
+    "doc": "https://docs.aws.amazon.com/controltower/",
+    "category": "management",
+    "aliases": [
+      "control tower",
+      "landing zone",
+      "multi account governance"
+    ],
+    "skills": [
+      "manage landing zone"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/?product=popular",
+    "https://azure.microsoft.com/en-us/products/",
+    "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/technology-choices-overview",
+    "https://docs.aws.amazon.com/",
+    "https://aws.amazon.com/products/",
+    "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html",
+    "https://cloud.google.com/products",
+    "https://cloud.google.com/docs"
+  ],
+  "note": "Curated skills catalog derived from official product/documentation catalogs (fetched online). Console URLs target official portals. Not an exhaustive copy of all docs; focused on high-accuracy cloud administration navigation/skills.",
+  "counts": {
+    "azure": 63,
+    "aws": 62,
+    "gcp": 61
+  },
+  "total": 186
+}
