@@ -13,7 +13,7 @@ A **from-scratch** cloud administration browser agent (no pre-trained/downloaded
 
 > The on-disk `cloud_admin_model.json` may need retraining to cover the full expanded skills catalog (training is user-controlled; see the project README).
 
-### Cybersecurity (`cybersecurity/`)
+### Cybersecurity (`Cybersecurity/`)
 Folder created for future cybersecurity models/projects.
 
 ## Getting started
